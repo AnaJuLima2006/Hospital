@@ -1,0 +1,30 @@
+{
+    "nome": "Gustavo Henrique Barbosa",
+    "data_nascimento": "1982-06-14",
+    "tipo_medico": "2",
+    "especialidade": "10",
+    "documentos": {
+      "crm": "SC987654",
+      "rg": "987654",
+      "cpf": "32198765432"
+    },
+    "endereco": {
+      "logradouro": "Rua das Palmeiras",
+      "numero": "369",
+      "bairro": "Centro",
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "cep": "98765432"
+    },
+    "contato": {
+      "subcontato1": {
+        "telefone": "48988888888",
+        "whatsapp": "True",
+        "observação": ""
+      },
+      "subcontato2": {
+        "email": "gustavo.barbosa@scmed.com.br",
+        "observação": "E-mail profissional"
+      }
+    }
+}

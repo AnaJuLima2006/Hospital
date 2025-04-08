@@ -1,0 +1,35 @@
+{
+    "nome": "Patrícia Albuquerque Lima",
+    "data_nascimento": "1980-12-05",
+    "tipo_medico": "1",
+    "especialidade": "6",
+    "documentos": {
+      "crm": "PE321654",
+      "rg": "321654",
+      "cpf": "98732165498"
+    },
+    "endereco": {
+      "logradouro": "Rua do Sol",
+      "numero": "147",
+      "bairro": "Boa Viagem",
+      "cidade": "Recife",
+      "estado": "PE",
+      "cep": "32165498"
+    },
+    "contato": {
+      "subcontato1": {
+        "telefone": "8133333333",
+        "whatsapp": "False",
+        "observação": "Consultório"
+      },
+      "subcontato2": {
+        "telefone": "81999999999",
+        "whatsapp": "True",
+        "observação": "Celular"
+      },
+      "subcontato3": {
+        "email": "patricia.lima@recifemed.com",
+        "observação": "E-mail profissional"
+      }
+    }
+}

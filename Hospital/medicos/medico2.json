@@ -1,0 +1,30 @@
+{
+    "nome": "Carlos Eduardo Silva",
+    "data_nascimento": "1985-05-15",
+    "tipo_medico": "2",
+    "especialidade": "3",
+    "documentos": {
+      "crm": "RJ654321",
+      "rg": "654321",
+      "cpf": "98765432109"
+    },
+    "endereco": {
+      "logradouro": "Av. Brasil",
+      "numero": "456",
+      "bairro": "Copacabana",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "98765432"
+    },
+    "contato": {
+      "subcontato1": {
+        "telefone": "21988888888",
+        "whatsapp": "True",
+        "observação": "Celular pessoal"
+      },
+      "subcontato2": {
+        "email": "carlos.silva@medico.com",
+        "observação": "E-mail profissional"
+      }
+    }
+}

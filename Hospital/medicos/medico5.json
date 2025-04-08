@@ -1,0 +1,39 @@
+{
+    "nome": "Fernanda Pereira Rocha",
+    "data_nascimento": "1992-03-18",
+    "tipo_medico": "1",
+    "especialidade": "2",
+    "documentos": {
+      "crm": "PR987321",
+      "rg": "987321",
+      "cpf": "32165498732"
+    },
+    "endereco": {
+      "logradouro": "Rua XV de Novembro",
+      "numero": "654",
+      "bairro": "Centro",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "98732165"
+    },
+    "contato": {
+      "subcontato1": {
+        "telefone": "41955555555",
+        "whatsapp": "True",
+        "observação": ""
+      },
+      "subcontato2": {
+        "telefone": "4198765432",
+        "whatsapp": "False",
+        "observação": "Hospital"
+      },
+      "subcontato3": {
+        "email": "fernanda.rocha@saude.com.br",
+        "observação": "E-mail principal"
+      },
+      "subcontato4": {
+        "email": "f.rocha@hospitalcuritiba.com",
+        "observação": "E-mail hospitalar"
+      }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "nome": "Mariana Oliveira Costa",
+    "data_nascimento": "1988-07-22",
+    "tipo_medico": "1",
+    "especialidade": "5",
+    "documentos": {
+      "crm": "MG789012",
+      "rg": "789012",
+      "cpf": "45678912345"
+    },
+    "endereco": {
+      "logradouro": "Rua das Flores",
+      "numero": "789",
+      "bairro": "Savassi",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "45678912"
+    },
+    "contato": {
+      "subcontato1": {
+        "telefone": "31977777777",
+        "whatsapp": "True",
+        "observação": "Celular"
+      },
+      "subcontato2": {
+        "telefone": "3197654321",
+        "whatsapp": "False",
+        "observação": "Clínica"
+      },
+      "subcontato3": {
+        "email": "mariana.costa@clinica.com",
+        "observação": "E-mail profissional"
+      }
+    }
+}

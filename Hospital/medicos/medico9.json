@@ -1,0 +1,39 @@
+{
+    "nome": "Juliana Vasconcelos Dias",
+    "data_nascimento": "1987-04-28",
+    "tipo_medico": "1",
+    "especialidade": "9",
+    "documentos": {
+      "crm": "CE654789",
+      "rg": "654789",
+      "cpf": "65412398765"
+    },
+    "endereco": {
+      "logradouro": "Av. Santos Dumont",
+      "numero": "2589",
+      "bairro": "Aldeota",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "cep": "65478932"
+    },
+    "contato": {
+      "subcontato1": {
+        "telefone": "85911111111",
+        "whatsapp": "True",
+        "observação": "Celular"
+      },
+      "subcontato2": {
+        "telefone": "8533333333",
+        "whatsapp": "False",
+        "observação": "Clínica"
+      },
+      "subcontato3": {
+        "email": "juliana.dias@fortmed.com",
+        "observação": "E-mail profissional"
+      },
+      "subcontato4": {
+        "email": "juliana.dias@gmail.com",
+        "observação": "E-mail pessoal"
+      }
+    }
+}
