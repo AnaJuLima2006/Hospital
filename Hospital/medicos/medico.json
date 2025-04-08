@@ -1,0 +1,396 @@
+[
+    {
+        "nome": "Ana Julia Lima dos Santos ",
+        "data_nascimento" : "1990-01-01",
+        "tipo_medico": "Especialistas",
+        "especialidade" : [
+            "Pediatria",
+            "Clínica geral"
+        ],
+        "status": 1,
+        "documentos":{
+            "crm": "SP123456",
+            "rg": "123456",
+            "cpf": "12345678901"
+        },
+        "endereco":{
+            "logradouro": "Rua dos Bobos",
+            "numero": "123",
+            "bairro": "Centro",
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "cep": "12345678"
+        },
+        "contato":{
+            "subcontato1": {
+                "telefone": "11999999999",
+                "whatsapp": "True",
+                "observação": ""
+            },
+            "subcontato2": {
+                "telefone": "119999965889",
+                "whatsapp": "False",
+                "observação": "Telefone fixo"
+            },
+            "subcontato3": {
+                "telefone": "119999965889",
+                "whatsapp": "False",
+                "observação": "Consultório"
+            },
+            "subcontato4": {
+                "email": "ana.julia@exemplo.com",
+                "observação": "E-mail pessoal"
+            },
+            "subcontato5": {
+                "email": "ana.julia@consultorio.com",
+                "observação": "E-mail profissional"
+            }
+        }
+
+    },
+    {
+        "nome": "Carlos Eduardo Silva",
+        "data_nascimento": "1985-05-15",
+        "tipo_medico": "Especialista",
+        "especialidade" : [
+            "Clínica geral",
+            "Gastroenterologia"
+        ],
+        "status": 1,
+        "documentos": {
+            "crm": "RJ654321",
+            "rg": "654321",
+            "cpf": "98765432109"
+        },
+        "endereco": {
+            "logradouro": "Av. Brasil",
+            "numero": "456",
+            "bairro": "Copacabana",
+            "cidade": "Rio de Janeiro",
+            "estado": "RJ",
+            "cep": "98765432"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "21988888888",
+                "whatsapp": "True",
+                "observação": "Celular pessoal"
+            },
+            "subcontato2": {
+                "email": "carlos.silva@medico.com",
+                "observação": "E-mail profissional"
+            }
+        }
+    },
+    {
+        "nome": "Mariana Oliveira Costa",
+        "data_nascimento": "1988-07-22",
+        "tipo_medico": "Especialista",
+        "especialidade" : [
+            "Dermatologia",
+            "Gastroenterologia"
+        ],
+        "status": 0,
+        "documentos": {
+            "crm": "MG789012",
+            "rg": "789012",
+            "cpf": "45678912345"
+        },
+        "endereco": {
+            "logradouro": "Rua das Flores",
+            "numero": "789",
+            "bairro": "Savassi",
+            "cidade": "Belo Horizonte",
+            "estado": "MG",
+            "cep": "45678912"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "31977777777",
+                "whatsapp": "True",
+                "observação": "Celular"
+            },
+            "subcontato2": {
+                "telefone": "3197654321",
+                "whatsapp": "False",
+                "observação": "Clínica"
+            },
+            "subcontato3": {
+                "email": "mariana.costa@clinica.com",
+                "observação": "E-mail profissional"
+            }
+        }
+    },
+    {
+        "nome": "Ricardo Almeida Santos",
+        "data_nascimento": "1979-11-30",
+        "tipo_medico": "Generalista",
+        "especialidade" : [
+            "Gastroenterologia"
+        ],
+        "status": 0,
+        "documentos": {
+            "crm": "RS456123",
+            "rg": "456123",
+            "cpf": "78912345678"
+        },
+        "endereco": {
+            "logradouro": "Av. Protásio Alves",
+            "numero": "321",
+            "bairro": "Petrópolis",
+            "cidade": "Porto Alegre",
+            "estado": "RS",
+            "cep": "32165498"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "51966666666",
+                "whatsapp": "True",
+                "observação": ""
+            },
+            "subcontato2": {
+                "email": "ricardo.santos@hospital.com",
+                "observação": "E-mail institucional"
+            }
+        }
+    },
+    {
+        "nome": "Fernanda Pereira Rocha",
+        "data_nascimento": "1992-03-18",
+        "tipo_medico": "Residencia",
+        "especialidade" : [
+            "Dermatologia",
+            "Clínica geral"
+        ],
+        "status": 0,
+        "documentos": {
+            "crm": "PR987321",
+            "rg": "987321",
+            "cpf": "32165498732"
+        },
+        "endereco": {
+            "logradouro": "Rua XV de Novembro",
+            "numero": "654",
+            "bairro": "Centro",
+            "cidade": "Curitiba",
+            "estado": "PR",
+            "cep": "98732165"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "41955555555",
+                "whatsapp": "True",
+                "observação": ""
+            },
+            "subcontato2": {
+                "telefone": "4198765432",
+                "whatsapp": "False",
+                "observação": "Hospital"
+            },
+            "subcontato3": {
+                "email": "fernanda.rocha@saude.com.br",
+                "observação": "E-mail principal"
+            },
+            "subcontato4": {
+                "email": "f.rocha@hospitalcuritiba.com",
+                "observação": "E-mail hospitalar"
+            }
+        }
+    },
+    {
+        "nome": "Lucas Mendes Gonçalves",
+        "data_nascimento": "1983-09-25",
+        "tipo_medico": "Especialista",
+        "especialidade" : [
+            "Dermatologia",
+            "Ginecologia"
+        ],
+        "status": 0,
+        "documentos": {
+            "crm": "BA654987",
+            "rg": "654987",
+            "cpf": "65498732165"
+        },
+        "endereco": {
+            "logradouro": "Av. Sete de Setembro",
+            "numero": "987",
+            "bairro": "Barra",
+            "cidade": "Salvador",
+            "estado": "BA",
+            "cep": "65498732"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "71944444444",
+                "whatsapp": "True",
+                "observação": "Celular"
+            },
+            "subcontato2": {
+                "email": "lucas.goncalves@med.ba",
+                "observação": "E-mail profissional"
+            }
+        }
+    },
+    {
+        "nome": "Patrícia Albuquerque Lima",
+        "data_nascimento": "1980-12-05",
+        "tipo_medico": "Residencia",
+        "especialidade" : [
+            "Urologia"
+        ],
+        "status": 1,
+        "documentos": {
+            "crm": "PE321654",
+            "rg": "321654",
+            "cpf": "98732165498"
+        },
+        "endereco": {
+            "logradouro": "Rua do Sol",
+            "numero": "147",
+            "bairro": "Boa Viagem",
+            "cidade": "Recife",
+            "estado": "PE",
+            "cep": "32165498"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "8133333333",
+                "whatsapp": "False",
+                "observação": "Consultório"
+            },
+            "subcontato2": {
+                "telefone": "81999999999",
+                "whatsapp": "True",
+                "observação": "Celular"
+            },
+            "subcontato3": {
+                "email": "patricia.lima@recifemed.com",
+                "observação": "E-mail profissional"
+            }
+        }
+    },
+    {
+        "nome": "Amanda Cristina Freitas",
+        "data_nascimento": "1991-10-08",
+        "tipo_medico": "Generalista",
+        "especialidade" : [
+            "Cardiologia"
+        ],
+        "status": 1,
+        "documentos": {
+            "crm": "GO123789",
+            "rg": "123789",
+            "cpf": "78945612398"
+        },
+        "endereco": {
+            "logradouro": "Av. Tocantins",
+            "numero": "753",
+            "bairro": "Setor Oeste",
+            "cidade": "Goiânia",
+            "estado": "GO",
+            "cep": "12378945"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "62977777777",
+                "whatsapp": "True",
+                "observação": "Celular"
+            },
+            "subcontato2": {
+                "telefone": "6233333333",
+                "whatsapp": "False",
+                "observação": "Consultório"
+            },
+            "subcontato3": {
+                "email": "amanda.freitas@medgo.com",
+                "observação": "E-mail profissional"
+            }
+        }
+    },
+    {
+        "nome": "Juliana Vasconcelos Dias",
+        "data_nascimento": "1987-04-28",
+        "tipo_medico": "Residencia",
+        "especialidade" : [
+            "Pediatria"
+        ],
+        "status": 0,
+        "documentos": {
+            "crm": "CE654789",
+            "rg": "654789",
+            "cpf": "65412398765"
+        },
+        "endereco": {
+            "logradouro": "Av. Santos Dumont",
+            "numero": "2589",
+            "bairro": "Aldeota",
+            "cidade": "Fortaleza",
+            "estado": "CE",
+            "cep": "65478932"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "85911111111",
+                "whatsapp": "True",
+                "observação": "Celular"
+            },
+            "subcontato2": {
+                "telefone": "8533333333",
+                "whatsapp": "False",
+                "observação": "Clínica"
+            },
+            "subcontato3": {
+                "email": "juliana.dias@fortmed.com",
+                "observação": "E-mail profissional"
+            },
+            "subcontato4": {
+                "email": "juliana.dias@gmail.com",
+                "observação": "E-mail pessoal"
+            }
+        }
+    },
+    {
+        "nome": "Gustavo Henrique Barbosa",
+        "data_nascimento": "1982-06-14",
+        "tipo_medico": "Especialista",
+        "especialidade" : [
+            "Dermatologia",
+            "Otorrinolaringologia"
+        ],
+        "status": 0,
+        "documentos": {
+            "crm": "SC987654",
+            "rg": "987654",
+            "cpf": "32198765432"
+        },
+        "endereco": {
+            "logradouro": "Rua das Palmeiras",
+            "numero": "369",
+            "bairro": "Centro",
+            "cidade": "Florianópolis",
+            "estado": "SC",
+            "cep": "98765432"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "48988888888",
+                "whatsapp": "True",
+                "observação": ""
+            },
+            "subcontato2": {
+                "email": "gustavo.barbosa@scmed.com.br",
+                "observação": "E-mail profissional"
+            }
+        }
+    }
+]
+
+
+
+       
+
+    
+
+
+
+
