@@ -1,27 +1,29 @@
 [
     {
-        "nome": "Ana Julia Lima dos Santos ",
-        "data_nascimento" : "1990-01-01",
+        "nome": "Ana Julia Lima dos Santos",
+        "data_nascimento": "1990-01-01",
         "tipo_medico": "Especialistas",
-        "especialidade" : [
+        "especialidade": [
             "Pediatria",
             "Clínica geral"
         ],
         "status": 1,
-        "documentos":{
+        "documentos": {
             "crm": "SP123456",
-            "rg": "123456",
+            "rg": "123456123",
+            "digito": "8",
             "cpf": "12345678901"
         },
-        "endereco":{
+        "endereco": {
             "logradouro": "Rua dos Bobos",
             "numero": "123",
+            "complemento": null,
             "bairro": "Centro",
             "cidade": "São Paulo",
             "estado": "SP",
             "cep": "12345678"
         },
-        "contato":{
+        "contato": {
             "subcontato1": {
                 "telefone": "11999999999",
                 "whatsapp": "True",
@@ -46,25 +48,26 @@
                 "observação": "E-mail profissional"
             }
         }
-
     },
     {
         "nome": "Carlos Eduardo Silva",
         "data_nascimento": "1985-05-15",
         "tipo_medico": "Especialista",
-        "especialidade" : [
+        "especialidade": [
             "Clínica geral",
             "Gastroenterologia"
         ],
         "status": 1,
         "documentos": {
             "crm": "RJ654321",
-            "rg": "654321",
+            "rg": "654321369",
+            "digito": "0",
             "cpf": "98765432109"
         },
         "endereco": {
             "logradouro": "Av. Brasil",
             "numero": "456",
+            "complemento": "Sala 302",
             "bairro": "Copacabana",
             "cidade": "Rio de Janeiro",
             "estado": "RJ",
@@ -86,19 +89,21 @@
         "nome": "Mariana Oliveira Costa",
         "data_nascimento": "1988-07-22",
         "tipo_medico": "Especialista",
-        "especialidade" : [
+        "especialidade": [
             "Dermatologia",
             "Gastroenterologia"
         ],
         "status": 0,
         "documentos": {
             "crm": "MG789012",
-            "rg": "789012",
+            "rg": "12789089",
+            "digito": "5",
             "cpf": "45678912345"
         },
         "endereco": {
             "logradouro": "Rua das Flores",
             "numero": "789",
+            "complemento": "Bloco B",
             "bairro": "Savassi",
             "cidade": "Belo Horizonte",
             "estado": "MG",
@@ -125,18 +130,20 @@
         "nome": "Ricardo Almeida Santos",
         "data_nascimento": "1979-11-30",
         "tipo_medico": "Generalista",
-        "especialidade" : [
+        "especialidade": [
             "Gastroenterologia"
         ],
         "status": 0,
         "documentos": {
             "crm": "RS456123",
-            "rg": "456123",
+            "rg": "456123258",
+            "digito": "2",
             "cpf": "78912345678"
         },
         "endereco": {
             "logradouro": "Av. Protásio Alves",
             "numero": "321",
+            "complemento": null,
             "bairro": "Petrópolis",
             "cidade": "Porto Alegre",
             "estado": "RS",
@@ -158,19 +165,21 @@
         "nome": "Fernanda Pereira Rocha",
         "data_nascimento": "1992-03-18",
         "tipo_medico": "Residencia",
-        "especialidade" : [
+        "especialidade": [
             "Dermatologia",
             "Clínica geral"
         ],
         "status": 0,
         "documentos": {
             "crm": "PR987321",
-            "rg": "987321",
+            "rg": "98732125",
+            "digito": "7",
             "cpf": "32165498732"
         },
         "endereco": {
             "logradouro": "Rua XV de Novembro",
             "numero": "654",
+            "complemento": "Apto 501",
             "bairro": "Centro",
             "cidade": "Curitiba",
             "estado": "PR",
@@ -201,19 +210,21 @@
         "nome": "Lucas Mendes Gonçalves",
         "data_nascimento": "1983-09-25",
         "tipo_medico": "Especialista",
-        "especialidade" : [
+        "especialidade": [
             "Dermatologia",
             "Ginecologia"
         ],
         "status": 0,
         "documentos": {
             "crm": "BA654987",
-            "rg": "654987",
+            "rg": "654987741",
+            "digito": "4",
             "cpf": "65498732165"
         },
         "endereco": {
             "logradouro": "Av. Sete de Setembro",
             "numero": "987",
+            "complemento": null,
             "bairro": "Barra",
             "cidade": "Salvador",
             "estado": "BA",
@@ -235,18 +246,20 @@
         "nome": "Patrícia Albuquerque Lima",
         "data_nascimento": "1980-12-05",
         "tipo_medico": "Residencia",
-        "especialidade" : [
+        "especialidade": [
             "Urologia"
         ],
         "status": 1,
         "documentos": {
             "crm": "PE321654",
-            "rg": "321654",
+            "rg": "321654456",
+            "digito": "1",
             "cpf": "98732165498"
         },
         "endereco": {
             "logradouro": "Rua do Sol",
             "numero": "147",
+            "complemento": "Consultório 203",
             "bairro": "Boa Viagem",
             "cidade": "Recife",
             "estado": "PE",
@@ -273,18 +286,20 @@
         "nome": "Amanda Cristina Freitas",
         "data_nascimento": "1991-10-08",
         "tipo_medico": "Generalista",
-        "especialidade" : [
+        "especialidade": [
             "Cardiologia"
         ],
         "status": 1,
         "documentos": {
             "crm": "GO123789",
-            "rg": "123789",
+            "rg": "123789573",
+            "digito": "3",
             "cpf": "78945612398"
         },
         "endereco": {
             "logradouro": "Av. Tocantins",
             "numero": "753",
+            "complemento": null,
             "bairro": "Setor Oeste",
             "cidade": "Goiânia",
             "estado": "GO",
@@ -311,18 +326,20 @@
         "nome": "Juliana Vasconcelos Dias",
         "data_nascimento": "1987-04-28",
         "tipo_medico": "Residencia",
-        "especialidade" : [
+        "especialidade": [
             "Pediatria"
         ],
         "status": 0,
         "documentos": {
             "crm": "CE654789",
-            "rg": "654789",
+            "rg": "654789253",
+            "digito": "9",
             "cpf": "65412398765"
         },
         "endereco": {
             "logradouro": "Av. Santos Dumont",
             "numero": "2589",
+            "complemento": "Sala 101",
             "bairro": "Aldeota",
             "cidade": "Fortaleza",
             "estado": "CE",
@@ -353,19 +370,21 @@
         "nome": "Gustavo Henrique Barbosa",
         "data_nascimento": "1982-06-14",
         "tipo_medico": "Especialista",
-        "especialidade" : [
+        "especialidade": [
             "Dermatologia",
             "Otorrinolaringologia"
         ],
         "status": 0,
         "documentos": {
             "crm": "SC987654",
-            "rg": "987654",
+            "rg": "987654789",
+            "digito": "6",
             "cpf": "32198765432"
         },
         "endereco": {
             "logradouro": "Rua das Palmeiras",
             "numero": "369",
+            "complemento": null,
             "bairro": "Centro",
             "cidade": "Florianópolis",
             "estado": "SC",
@@ -382,15 +401,196 @@
                 "observação": "E-mail profissional"
             }
         }
+    },
+    {
+        "nome": "Rafael Augusto Monteiro",
+        "data_nascimento": "1986-02-17",
+        "tipo_medico": "Especialista",
+        "especialidade": [
+            "Ortopedia",
+            "Traumatologia"
+        ],
+        "status": 1,
+        "documentos": {
+            "crm": "DF456852",
+            "rg": "456852459",
+            "digito": "X",
+            "cpf": "85296374125"
+        },
+        "endereco": {
+            "logradouro": "SQN 406 Bloco C",
+            "numero": "12",
+            "complemento": "Apto 304",
+            "bairro": "Asa Norte",
+            "cidade": "Brasília",
+            "estado": "DF",
+            "cep": "70740560"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "61985858585",
+                "whatsapp": "True",
+                "observação": "Celular pessoal"
+            },
+            "subcontato2": {
+                "telefone": "6133224455",
+                "whatsapp": "False",
+                "observação": "Consultório"
+            },
+            "subcontato3": {
+                "email": "rafael.monteiro@ortodf.com.br",
+                "observação": "E-mail profissional"
+            }
+        }
+    },
+    {
+        "nome": "Camila Andrade Souza",
+        "data_nascimento": "1989-08-23",
+        "tipo_medico": "Generalista",
+        "especialidade": [
+            "Endocrinologia"
+        ],
+        "status": 1,
+        "documentos": {
+            "crm": "ES741258",
+            "rg": "741258254",
+            "digito": "5",
+            "cpf": "36925814736"
+        },
+        "endereco": {
+            "logradouro": "Rua João da Cruz",
+            "numero": "85",
+            "complemento": null,
+            "bairro": "Praia do Canto",
+            "cidade": "Vitória",
+            "estado": "ES",
+            "cep": "29055470"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "27996969696",
+                "whatsapp": "True",
+                "observação": ""
+            },
+            "subcontato2": {
+                "email": "camila.souza@endocrino.com",
+                "observação": "E-mail profissional"
+            }
+        }
+    },
+    {
+        "nome": "Bruno Carvalho Martins",
+        "data_nascimento": "1984-05-30",
+        "tipo_medico": "Residencia",
+        "especialidade": [
+            "Neurologia"
+        ],
+        "status": 0,
+        "documentos": {
+            "crm": "PA963852",
+            "rg": "963852471",
+            "digito": "2",
+            "cpf": "14725836985"
+        },
+        "endereco": {
+            "logradouro": "Travessa Quintino Bocaiúva",
+            "numero": "1597",
+            "complemento": "Casa 2",
+            "bairro": "Nazaré",
+            "cidade": "Belém",
+            "estado": "PA",
+            "cep": "66035190"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "91987878787",
+                "whatsapp": "True",
+                "observação": "Celular"
+            },
+            "subcontato2": {
+                "telefone": "9132456789",
+                "whatsapp": "False",
+                "observação": "Hospital"
+            },
+            "subcontato3": {
+                "email": "bruno.martins@hugp.com.br",
+                "observação": "E-mail institucional"
+            }
+        }
+    },
+    {
+        "nome": "Isabela Santos Oliveira",
+        "data_nascimento": "1993-12-12",
+        "tipo_medico": "Especialista",
+        "especialidade": [
+            "Oftalmologia"
+        ],
+        "status": 1,
+        "documentos": {
+            "crm": "MS852741",
+            "rg": "85274112",
+            "digito": "7",
+            "cpf": "25836914725"
+        },
+        "endereco": {
+            "logradouro": "Rua da Paz",
+            "numero": "456",
+            "complemento": "Sala 701",
+            "bairro": "Centro",
+            "cidade": "Campo Grande",
+            "estado": "MS",
+            "cep": "79002490"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "67992929292",
+                "whatsapp": "True",
+                "observação": "Celular"
+            },
+            "subcontato2": {
+                "telefone": "6733221100",
+                "whatsapp": "False",
+                "observação": "Clínica"
+            },
+            "subcontato3": {
+                "email": "isabela.oliveira@oftalmoms.com.br",
+                "observação": "E-mail profissional"
+            }
+        }
+    },
+    {
+        "nome": "Thiago Nogueira Ramos",
+        "data_nascimento": "1978-07-04",
+        "tipo_medico": "Generalista",
+        "especialidade": [
+            "Pneumologia"
+        ],
+        "status": 1,
+        "documentos": {
+            "crm": "MT147963",
+            "rg": "147963457",
+            "digito": "0",
+            "cpf": "96385274196"
+        },
+        "endereco": {
+            "logradouro": "Av. Historiador Rubens de Mendonça",
+            "numero": "3215",
+            "complemento": "Bloco 2",
+            "bairro": "Bosque da Saúde",
+            "cidade": "Cuiabá",
+            "estado": "MT",
+            "cep": "78050000"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "65981818181",
+                "whatsapp": "True",
+                "observação": ""
+            },
+            "subcontato2": {
+                "email": "thiago.ramos@pneumomt.com.br",
+                "observação": "E-mail profissional"
+            }
+        }
     }
 ]
-
-
-
-       
-
-    
-
-
-
-
