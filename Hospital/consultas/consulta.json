@@ -1,0 +1,452 @@
+[
+  {
+    "id_consulta": "CONS001",
+    "paciente_id": "P01",
+    "medico_id": "SP123456",
+    "data_consulta": "2015-03-15T09:30:00Z",
+    "duracao_minutos": 30,
+    "tipo_consulta": "Rotina",
+    "diagnostico": "Hipertensão arterial estágio 1",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Losartana",
+          "dosagem": "50mg",
+          "frequencia": "1x ao dia"
+        },
+        {
+          "nome": "Hidroclorotiazida",
+          "dosagem": "25mg",
+          "frequencia": "1x ao dia"
+        }
+      ]
+    },
+    "observacoes": "Retorno em 3 meses para reavaliação"
+  },
+  {
+    "id_consulta": "CONS002",
+    "paciente_id": "P02",
+    "medico_id": "RJ654321",
+    "data_consulta": "2015-06-22T14:00:00Z",
+    "duracao_minutos": 45,
+    "tipo_consulta": "Especializada",
+    "diagnostico": "Gastrite erosiva",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Omeprazol",
+          "dosagem": "40mg",
+          "frequencia": "1x ao dia"
+        },
+        {
+          "nome": "Sucralfato",
+          "dosagem": "1g",
+          "frequencia": "4x ao dia"
+        }
+      ]
+    },
+    "observacoes": "Evitar alimentos ácidos e condimentados"
+  },
+  {
+    "id_consulta": "CONS003",
+    "paciente_id": "P03",
+    "medico_id": "MG789012",
+    "data_consulta": "2016-01-10T10:15:00Z",
+    "duracao_minutos": 20,
+    "tipo_consulta": "Dermatológica",
+    "diagnostico": "Dermatite atópica",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Hidrocortisona",
+          "dosagem": "1%",
+          "frequencia": "2x ao dia (tópico)"
+        }
+      ]
+    },
+    "observacoes": "Manter hidratação da pele"
+  },
+  {
+    "id_consulta": "CONS004",
+    "paciente_id": "P04",
+    "medico_id": "RS456123",
+    "data_consulta": "2016-05-05T08:30:00Z",
+    "duracao_minutos": 40,
+    "tipo_consulta": "Cardiológica",
+    "diagnostico": "Arritmia cardíaca",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Propranolol",
+          "dosagem": "40mg",
+          "frequencia": "2x ao dia"
+        },
+        {
+          "nome": "Aspirina",
+          "dosagem": "100mg",
+          "frequencia": "1x ao dia"
+        }
+      ]
+    },
+    "observacoes": "Monitorar frequência cardíaca"
+  },
+  {
+    "id_consulta": "CONS005",
+    "paciente_id": "P05",
+    "medico_id": "PR987321",
+    "data_consulta": "2016-08-18T11:00:00Z",
+    "duracao_minutos": 25,
+    "tipo_consulta": "Pediatria",
+    "diagnostico": "Otite média aguda",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Amoxicilina",
+          "dosagem": "500mg",
+          "frequencia": "3x ao dia"
+        },
+        {
+          "nome": "Dipirona",
+          "dosagem": "500mg",
+          "frequencia": "6/6h (se dor)"
+        }
+      ]
+    },
+    "observacoes": "Retornar se febre persistir após 48h"
+  },
+  {
+    "id_consulta": "CONS006",
+    "paciente_id": "P06",
+    "medico_id": "BA654987",
+    "data_consulta": "2017-02-14T16:45:00Z",
+    "duracao_minutos": 50,
+    "tipo_consulta": "Ginecológica",
+    "diagnostico": "Cisto de ovário funcional",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Anticoncepcional oral",
+          "dosagem": "30μg",
+          "frequencia": "1x ao dia"
+        },
+        {
+          "nome": "Ibuprofeno",
+          "dosagem": "600mg",
+          "frequencia": "8/8h (se dor)"
+        }
+      ]
+    },
+    "observacoes": "Ultrassom de controle em 3 meses"
+  },
+  {
+    "id_consulta": "CONS007",
+    "paciente_id": "P07",
+    "medico_id": "PE321654",
+    "data_consulta": "2017-07-30T13:20:00Z",
+    "duracao_minutos": 30,
+    "tipo_consulta": "Urológica",
+    "diagnostico": "Infecção urinária",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Ciprofloxacino",
+          "dosagem": "500mg",
+          "frequencia": "2x ao dia"
+        }
+      ]
+    },
+    "observacoes": "Aumentar ingestão de líquidos"
+  },
+  {
+    "id_consulta": "CONS008",
+    "paciente_id": "P08",
+    "medico_id": "GO123789",
+    "data_consulta": "2017-11-05T09:00:00Z",
+    "duracao_minutos": 60,
+    "tipo_consulta": "Cardiológica",
+    "diagnostico": "Hipertensão arterial",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Amlodipina",
+          "dosagem": "5mg",
+          "frequencia": "1x ao dia"
+        },
+        {
+          "nome": "Atorvastatina",
+          "dosagem": "20mg",
+          "frequencia": "1x ao dia"
+        }
+      ]
+    },
+    "observacoes": "Iniciar dieta hipossódica"
+  },
+  {
+    "id_consulta": "CONS009",
+    "paciente_id": "P09",
+    "medico_id": "CE654789",
+    "data_consulta": "2018-04-12T15:30:00Z",
+    "duracao_minutos": 20,
+    "tipo_consulta": "Pediatria",
+    "diagnostico": "Amigdalite bacteriana",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Penicilina V",
+          "dosagem": "500mg",
+          "frequencia": "3x ao dia"
+        },
+        {
+          "nome": "Paracetamol",
+          "dosagem": "200mg",
+          "frequencia": "6/6h (se febre)"
+        }
+      ]
+    },
+    "observacoes": "Repouso e hidratação"
+  },
+  {
+    "id_consulta": "CONS010",
+    "paciente_id": "P10",
+    "medico_id": "SC987654",
+    "data_consulta": "2018-09-20T10:45:00Z",
+    "duracao_minutos": 40,
+    "tipo_consulta": "Otorrinolaringológica",
+    "diagnostico": "Rinite alérgica",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Loratadina",
+          "dosagem": "10mg",
+          "frequencia": "1x ao dia"
+        },
+        {
+          "nome": "Mometasona nasal",
+          "dosagem": "50μg",
+          "frequencia": "2x ao dia"
+        }
+      ]
+    },
+    "observacoes": "Evitar alérgenos conhecidos"
+  },
+  {
+    "id_consulta": "CONS011",
+    "paciente_id": "P11",
+    "medico_id": "DF456852",
+    "data_consulta": "2019-01-25T08:15:00Z",
+    "duracao_minutos": 30,
+    "tipo_consulta": "Ortopédica",
+    "diagnostico": "Tendinite patelar",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Cetoprofeno",
+          "dosagem": "100mg",
+          "frequencia": "2x ao dia"
+        },
+        {
+          "nome": "Paracetamol",
+          "dosagem": "750mg",
+          "frequencia": "8/8h (se dor)"
+        }
+      ]
+    },
+    "observacoes": "Fisioterapia indicada"
+  },
+  {
+    "id_consulta": "CONS012",
+    "paciente_id": "P12",
+    "medico_id": "ES741258",
+    "data_consulta": "2019-06-03T14:20:00Z",
+    "duracao_minutos": 50,
+    "tipo_consulta": "Endocrinológica",
+    "diagnostico": "Hipotireoidismo",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Levotiroxina",
+          "dosagem": "50μg",
+          "frequencia": "1x ao dia (em jejum)"
+        }
+      ]
+    },
+    "observacoes": "Exames de TSH em 6 semanas"
+  },
+  {
+    "id_consulta": "CONS013",
+    "paciente_id": "P13",
+    "medico_id": "PA963852",
+    "data_consulta": "2019-10-15T11:10:00Z",
+    "duracao_minutos": 25,
+    "tipo_consulta": "Neurológica",
+    "diagnostico": "Enxaqueca",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Sumatriptana",
+          "dosagem": "50mg",
+          "frequencia": "na crise"
+        },
+        {
+          "nome": "Propranolol",
+          "dosagem": "40mg",
+          "frequencia": "2x ao dia"
+        }
+      ]
+    },
+    "observacoes": "Manter diário das crises"
+  },
+  {
+    "id_consulta": "CONS014",
+    "paciente_id": "P14",
+    "medico_id": "MS852741",
+    "data_consulta": "2020-02-28T09:45:00Z",
+    "duracao_minutos": 35,
+    "tipo_consulta": "Oftalmológica",
+    "diagnostico": "Conjuntivite alérgica",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Olopatadina",
+          "dosagem": "0,1%",
+          "frequencia": "2x ao dia (colírio)"
+        }
+      ]
+    },
+    "observacoes": "Evitar coçar os olhos"
+  },
+  {
+    "id_consulta": "CONS015",
+    "paciente_id": "P15",
+    "medico_id": "MT147963",
+    "data_consulta": "2020-07-17T16:30:00Z",
+    "duracao_minutos": 60,
+    "tipo_consulta": "Pneumológica",
+    "diagnostico": "Asma brônquica",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Budesonida",
+          "dosagem": "200μg",
+          "frequencia": "2x ao dia (inalatório)"
+        },
+        {
+          "nome": "Salbutamol",
+          "dosagem": "100μg",
+          "frequencia": "4-6h (se falta de ar)"
+        }
+      ]
+    },
+    "observacoes": "Uso correto do inalador demonstrado"
+  },
+  {
+    "id_consulta": "CONS016",
+    "paciente_id": "P01",
+    "medico_id": "SP123456",
+    "data_consulta": "2020-11-09T10:00:00Z",
+    "duracao_minutos": 30,
+    "tipo_consulta": "Retorno",
+    "diagnostico": "Hipertensão controlada",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Losartana",
+          "dosagem": "50mg",
+          "frequencia": "1x ao dia"
+        }
+      ]
+    },
+    "observacoes": "Pressão arterial dentro dos limites normais"
+  },
+  {
+    "id_consulta": "CONS017",
+    "paciente_id": "P03",
+    "medico_id": "MG789012",
+    "data_consulta": "2021-03-22T14:15:00Z",
+    "duracao_minutos": 40,
+    "tipo_consulta": "Dermatológica",
+    "diagnostico": "Dermatite seborreica",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Cetoconazol",
+          "dosagem": "2%",
+          "frequencia": "2x por semana (xampu)"
+        },
+        {
+          "nome": "Hidrocortisona",
+          "dosagem": "1%",
+          "frequencia": "2x ao dia (tópico)"
+        }
+      ]
+    },
+    "observacoes": "Melhora significativa da dermatite atópica"
+  },
+  {
+    "id_consulta": "CONS018",
+    "paciente_id": "P05",
+    "medico_id": "PR987321",
+    "data_consulta": "2021-08-05T08:30:00Z",
+    "duracao_minutos": 20,
+    "tipo_consulta": "Pediatria",
+    "diagnostico": "Resfriado comum",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Paracetamol",
+          "dosagem": "200mg",
+          "frequencia": "6/6h (se febre)"
+        }
+      ]
+    },
+    "observacoes": "Hidratação e repouso"
+  },
+  {
+    "id_consulta": "CONS019",
+    "paciente_id": "P07",
+    "medico_id": "PE321654",
+    "data_consulta": "2021-10-18T11:45:00Z",
+    "duracao_minutos": 50,
+    "tipo_consulta": "Urológica",
+    "diagnostico": "Cálculo renal",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Diclofenaco",
+          "dosagem": "50mg",
+          "frequencia": "8/8h (se dor)"
+        },
+        {
+          "nome": "Tamsulosina",
+          "dosagem": "0,4mg",
+          "frequencia": "1x ao dia"
+        }
+      ]
+    },
+    "observacoes": "Aumentar ingestão hídrica para 3L/dia"
+  },
+  {
+    "id_consulta": "CONS020",
+    "paciente_id": "P10",
+    "medico_id": "SC987654",
+    "data_consulta": "2021-12-07T15:00:00Z",
+    "duracao_minutos": 30,
+    "tipo_consulta": "Otorrinolaringológica",
+    "diagnostico": "Sinusite aguda",
+    "receituario": {
+      "medicamentos": [
+        {
+          "nome": "Amoxicilina-Clavulanato",
+          "dosagem": "875/125mg",
+          "frequencia": "2x ao dia"
+        },
+        {
+          "nome": "Descongestionante nasal",
+          "dosagem": "0,1%",
+          "frequencia": "3x ao dia"
+        }
+      ]
+    },
+    "observacoes": "Retornar se sintomas persistirem após 7 dias"
+  }
+]
