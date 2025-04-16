@@ -59,6 +59,12 @@ Registra os atendimentos realizados entre médicos e pacientes, incluindo:
 *Motivo da alta, evolução diária, contato familiar responsável e dieta especial — campos novos adicionados ao modelo
 *Profissionais de enfermagem responsáveis (COREN e CPF)
 
+## 🔹Conteúdo do Script
+O script principal (em MongoDB Shell) está dividido em blocos que:
+
+* Atualizam campos no banco (updateMany, updateOne)
+* Realizam consultas com find, aggregate, lookup, match, project, unwind e operadores como $dateDiff, $expr, $avg, $group.
+* Fornecem inteligência sobre os dados: médias, totais, comparações, filtragens avançadas.
 ## 🧾 Consultas Inteligentes (queries)
 
 - Valor médio de consultas sob convênio em 2020
@@ -69,13 +75,6 @@ Registra os atendimentos realizados entre médicos e pacientes, incluindo:
 - Consultas de menores de idade fora da especialidade pediatria
 - Médicos com total de consultas realizadas
 - Enfermeiros com mais de uma internação
-
-##🧾 Conteúdo do Script
-O script principal (em MongoDB Shell) está dividido em blocos que:
-
-* Atualizam campos no banco (updateMany, updateOne)
-* Realizam consultas com find, aggregate, lookup, match, project, unwind e operadores como $dateDiff, $expr, $avg, $group.
-* Fornecem inteligência sobre os dados: médias, totais, comparações, filtragens avançadas.
 
 --- 
 **Banco de dados NoSQL otimizado para ambientes hospitalares.**
