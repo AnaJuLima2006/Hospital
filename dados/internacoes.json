@@ -1,0 +1,733 @@
+[
+  {
+    "_id": "5f1d1d1db0b1e6b1f1c1f1c1f",
+    "paciente_id": "P01",
+    "medico_responsavel_id": "SP123456",
+    "data_entrada": "2021-04-10T08:00:00Z",
+    "data_prevista_alta": "2021-04-15T10:00:00Z",
+    "data_efetiva_alta": "2021-04-14T12:00:00Z",
+    "diagnostico_principal": "Apendicite aguda",
+    "procedimentos": [
+      "Cirurgia de apendicite",
+      "Exame de sangue",
+      "Ultrassom abdominal"
+    ],
+    "quarto": {
+      "numero": "101",
+      "tipo": "Apartamento",
+      "descricao": "Quarto individual com banheiro privativo e TV",
+      "valor_diario": 350.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Ana Claudia Santos",
+        "coren": "SP123456",
+        "cpf": "11122233344"
+      },
+      {
+        "nome": "Lucas Mendes",
+        "coren": "SP789123",
+        "cpf": "77788899900"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Cefazolina",
+        "dosagem": "1g",
+        "via": "intravenosa",
+        "frequencia": "8/8h"
+      },
+      {
+        "nome": "Dipirona",
+        "dosagem": "1g",
+        "via": "intravenosa",
+        "frequencia": "6/6h"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": "Dieta sem Amendoim"
+  },
+  {
+    "_id": "5f2e2e2eb0b1e6b1f1c1f1c1f",
+    "paciente_id": "P03",
+    "medico_responsavel_id": "MG789012",
+    "data_entrada": "2020-08-05T14:30:00Z",
+    "data_prevista_alta": "2020-08-10T10:00:00Z",
+    "data_efetiva_alta": "2020-08-12T09:15:00Z",
+    "diagnostico_principal": "Pneumonia bacteriana",
+    "procedimentos": [
+      "Tratamento de pneumonia",
+      "Raio-X de tórax",
+      "Fisioterapia respiratória"
+    ],
+    "quarto": {
+      "numero": "205",
+      "tipo": "Quarto duplo",
+      "descricao": "Quarto compartilhado com outro paciente, banheiro privativo",
+      "valor_diario": 220.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Mariana Oliveira",
+        "coren": "MG987654",
+        "cpf": "33344455566"
+      },
+      {
+        "nome": "Thiago Lima",
+        "coren": "CO000004",
+        "cpf": "08668498017"
+      },
+      {
+        "nome": "Renata Dias",
+        "coren": "CO000005",
+        "cpf": "35605715322"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Azitromicina",
+        "dosagem": "500mg",
+        "via": "oral",
+        "frequencia": "1x/dia"
+      },
+      {
+        "nome": "Salbutamol",
+        "dosagem": "2,5mg",
+        "via": "inalatória",
+        "frequencia": "4/4h"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": null
+  },
+  {
+    "_id": "5f3f3f3fb0b1e6b1f1c1f1c1f",
+    "paciente_id": "P05",
+    "medico_responsavel_id": "RS456123",
+    "data_entrada": "2019-11-15T10:00:00Z",
+    "data_prevista_alta": "2019-11-20T10:00:00Z",
+    "data_efetiva_alta": "2019-11-18T14:30:00Z",
+    "diagnostico_principal": "Hérnia inguinal estrangulada",
+    "procedimentos": [
+      "Cirurgia de hérnia inguinal",
+      "Curativos pós-operatórios",
+      "Monitoramento cardíaco"
+    ],
+    "quarto": {
+      "numero": "302",
+      "tipo": "Apartamento",
+      "descricao": "Quarto individual com banheiro privativo e TV",
+      "valor_diario": 350.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Ricardo Almeida",
+        "coren": "RS456789",
+        "cpf": "44455566677"
+      },
+      {
+        "nome": "Fernanda Costa",
+        "coren": "RS123456",
+        "cpf": "55566677788"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Tramadol",
+        "dosagem": "100mg",
+        "via": "intramuscular",
+        "frequencia": "8/8h"
+      },
+      {
+        "nome": "Cefalexina",
+        "dosagem": "1g",
+        "via": "oral",
+        "frequencia": "6/6h"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": "Dieta sem Mariscos"
+  },
+  {
+    "_id": "5f4d4d4db0b1e6b1f1c1f1c1f",
+    "paciente_id": "P02",
+    "medico_responsavel_id": "RJ654321",
+    "data_entrada": "2018-03-22T09:15:00Z",
+    "data_prevista_alta": "2018-03-25T10:00:00Z",
+    "data_efetiva_alta": "2018-03-24T16:45:00Z",
+    "diagnostico_principal": "Trabalho de parto prolongado",
+    "procedimentos": [
+      "Parto cesárea",
+      "Monitoramento fetal",
+      "Cuidados pós-parto"
+    ],
+    "quarto": {
+      "numero": "104",
+      "tipo": "Enfermaria",
+      "descricao": "Quarto coletivo (até 4 pacientes), banheiro compartilhado",
+      "valor_diario": 150.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Patricia Souza",
+        "coren": "RJ321654",
+        "cpf": "66677788899"
+      },
+      {
+        "nome": "João Ferreira",
+        "coren": "CO000000",
+        "cpf": "53973887996"
+      },
+      {
+        "nome": "Larissa Martins",
+        "coren": "CO000001",
+        "cpf": "93582970570"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Oxitocina",
+        "dosagem": "5UI",
+        "via": "intravenosa",
+        "frequencia": "dose única"
+      },
+      {
+        "nome": "Dipirona",
+        "dosagem": "1g",
+        "via": "intravenosa",
+        "frequencia": "6/6h"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": "Dieta sem Penicilina"
+  },
+  {
+    "_id": "5f5e5e5eb0b1e6b1f1c1f1c1f",
+    "paciente_id": "P01",
+    "medico_responsavel_id": "SP123456",
+    "data_entrada": "2017-07-30T11:20:00Z",
+    "data_prevista_alta": "2017-08-05T10:00:00Z",
+    "data_efetiva_alta": "2017-08-03T09:00:00Z",
+    "diagnostico_principal": "Fratura de fêmur direito",
+    "procedimentos": [
+      "Tratamento de fratura de fêmur",
+      "Fisioterapia motora",
+      "Radiografia de controle"
+    ],
+    "quarto": {
+      "numero": "201",
+      "tipo": "Quarto duplo",
+      "descricao": "Quarto compartilhado com outro paciente, banheiro privativo",
+      "valor_diario": 220.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Ana Claudia Santos",
+        "coren": "SP123456",
+        "cpf": "11122233344"
+      },
+      {
+        "nome": "Lucas Mendes",
+        "coren": "SP789123",
+        "cpf": "77788899900"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Morfina",
+        "dosagem": "10mg",
+        "via": "intravenosa",
+        "frequencia": "4/4h"
+      },
+      {
+        "nome": "Enoxaparina",
+        "dosagem": "40mg",
+        "via": "subcutânea",
+        "frequencia": "1x/dia"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": "Dieta sem Amendoim"
+  },
+  {
+    "_id": "5f6f6f6fb0b1e6b1f1c1f1c1f",
+    "paciente_id": "P07",
+    "medico_responsavel_id": "BA654987",
+    "data_entrada": "2016-05-12T16:45:00Z",
+    "data_prevista_alta": "2016-05-18T10:00:00Z",
+    "data_efetiva_alta": "2016-05-17T11:30:00Z",
+    "diagnostico_principal": "Dengue hemorrágica",
+    "procedimentos": [
+      "Tratamento de dengue hemorrágica",
+      "Hidratação venosa",
+      "Monitoramento de plaquetas"
+    ],
+    "quarto": {
+      "numero": "105",
+      "tipo": "Enfermaria",
+      "descricao": "Quarto coletivo (até 4 pacientes), banheiro compartilhado",
+      "valor_diario": 150.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Juliana Vasconcelos",
+        "coren": "BA456123",
+        "cpf": "88899900011"
+      },
+      {
+        "nome": "João Ferreira",
+        "coren": "CO000000",
+        "cpf": "53973887996"
+      },
+      {
+        "nome": "Larissa Martins",
+        "coren": "CO000001",
+        "cpf": "93582970570"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Solução fisiológica 0,9%",
+        "dosagem": "1000mL",
+        "via": "intravenosa",
+        "frequencia": "12/12h"
+      },
+      {
+        "nome": "Paracetamol",
+        "dosagem": "1g",
+        "via": "oral",
+        "frequencia": "6/6h"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": "Dieta sem Pólen"
+  },
+  {
+    "_id": "5f7g7g7gb0b1e6b1f1c1f1c1f",
+    "paciente_id": "P04",
+    "medico_responsavel_id": "PR987321",
+    "data_entrada": "2015-09-08T08:30:00Z",
+    "data_prevista_alta": "2015-09-12T10:00:00Z",
+    "data_efetiva_alta": "2015-09-11T14:15:00Z",
+    "diagnostico_principal": "Colecistite aguda",
+    "procedimentos": [
+      "Cirurgia de vesícula",
+      "Dieta controlada",
+      "Ultrassom abdominal pós-operatório"
+    ],
+    "quarto": {
+      "numero": "303",
+      "tipo": "Apartamento",
+      "descricao": "Quarto individual com banheiro privativo e TV",
+      "valor_diario": 350.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Gustavo Henrique",
+        "coren": "PR789456",
+        "cpf": "99900011122"
+      },
+      {
+        "nome": "Amanda Freitas",
+        "coren": "PR321654",
+        "cpf": "00011122233"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Ketoprofeno",
+        "dosagem": "100mg",
+        "via": "intravenosa",
+        "frequencia": "12/12h"
+      },
+      {
+        "nome": "Metoclopramida",
+        "dosagem": "10mg",
+        "via": "intravenosa",
+        "frequencia": "8/8h"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": "Dieta sem Dipirona"
+  },
+  {
+    "_id": "5f8h8h8hb0b1e6b1f1c1f1c1f",
+    "paciente_id": "P09",
+    "medico_responsavel_id": "CE654789",
+    "data_entrada": "2022-01-15T09:00:00Z",
+    "data_prevista_alta": "2022-01-20T10:00:00Z",
+    "data_efetiva_alta": "2022-01-18T11:20:00Z",
+    "diagnostico_principal": "Reação alérgica grave a contraste iodado",
+    "procedimentos": [
+      "Desintoxicação",
+      "Monitoramento cardíaco",
+      "Administração de epinefrina"
+    ],
+    "quarto": {
+      "numero": "106",
+      "tipo": "Observação",
+      "descricao": "Quarto com monitoramento contínuo",
+      "valor_diario": 400.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Camila Andrade",
+        "coren": "CE123789",
+        "cpf": "12345678901"
+      },
+      {
+        "nome": "Pedro Oliveira",
+        "coren": "CO000002",
+        "cpf": "16569785283"
+      },
+      {
+        "nome": "Camila Souza",
+        "coren": "CO000003",
+        "cpf": "28617509730"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Epinefrina",
+        "dosagem": "0,3mg",
+        "via": "intramuscular",
+        "frequencia": "dose única"
+      },
+      {
+        "nome": "Dexametasona",
+        "dosagem": "4mg",
+        "via": "intravenosa",
+        "frequencia": "6/6h"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": "Dieta sem Iodo"
+  },
+  {
+    "_id": "5f9i9i9ib0b1e6b1f1c1f1c1f",
+    "paciente_id": "P12",
+    "medico_responsavel_id": "ES741258",
+    "data_entrada": "2022-03-08T14:00:00Z",
+    "data_prevista_alta": "2022-03-12T10:00:00Z",
+    "data_efetiva_alta": "2022-03-10T16:30:00Z",
+    "diagnostico_principal": "Crise de asma severa",
+    "procedimentos": [
+      "Nebulização",
+      "Oxigenoterapia",
+      "Fisioterapia respiratória"
+    ],
+    "quarto": {
+      "numero": "202",
+      "tipo": "Quarto duplo",
+      "descricao": "Quarto com oxigênio central",
+      "valor_diario": 280.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Rafael Monteiro",
+        "coren": "ES456123",
+        "cpf": "23456789012"
+      },
+      {
+        "nome": "Eduardo Castro",
+        "coren": "CO000006",
+        "cpf": "90802374682"
+      },
+      {
+        "nome": "Tatiane Rocha",
+        "coren": "CO000007",
+        "cpf": "84880636327"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Budesonida",
+        "dosagem": "1mg",
+        "via": "inalatória",
+        "frequencia": "6/6h"
+      },
+      {
+        "nome": "Salbutamol",
+        "dosagem": "2,5mg",
+        "via": "inalatória",
+        "frequencia": "2/2h"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": "Dieta sem Ácaros"
+  },
+  {
+    "_id": "5f0j0j0jb0b1e6b1f1c1f1c1f",
+    "paciente_id": "P15",
+    "medico_responsavel_id": "MT147963",
+    "data_entrada": "2022-05-22T08:45:00Z",
+    "data_prevista_alta": "2022-05-27T10:00:00Z",
+    "data_efetiva_alta": "2022-05-25T09:15:00Z",
+    "diagnostico_principal": "Intoxicação alimentar por mariscos",
+    "procedimentos": [
+      "Lavagem gástrica",
+      "Hidratação venosa",
+      "Monitoramento hepático"
+    ],
+    "quarto": {
+      "numero": "107",
+      "tipo": "Enfermaria",
+      "descricao": "Quarto com monitoramento de sinais vitais",
+      "valor_diario": 180.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Isabela Oliveira",
+        "coren": "MT789012",
+        "cpf": "34567890123"
+      },
+      {
+        "nome": "Thiago Lima",
+        "coren": "CO000004",
+        "cpf": "08668498017"
+      },
+      {
+        "nome": "Renata Dias",
+        "coren": "CO000005",
+        "cpf": "35605715322"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Carvão ativado",
+        "dosagem": "50g",
+        "via": "oral",
+        "frequencia": "dose única"
+      },
+      {
+        "nome": "Ranitidina",
+        "dosagem": "50mg",
+        "via": "intravenosa",
+        "frequencia": "8/8h"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": null
+  },
+  {
+    "_id": "duplicada_0",
+    "paciente_id": "P05",
+    "medico_responsavel_id": "RS456123",
+    "data_entrada": "2018-06-15T10:00:00Z",
+    "data_prevista_alta": "2018-06-20T10:00:00Z",
+    "data_efetiva_alta": "2018-06-19T14:00:00Z",
+    "diagnostico_principal": "Reinternação para controle",
+    "procedimentos": [
+      "Cirurgia de hérnia inguinal",
+      "Curativos pós-operatórios",
+      "Monitoramento cardíaco"
+    ],
+    "quarto": {
+      "numero": "302",
+      "tipo": "Apartamento",
+      "descricao": "Quarto individual com banheiro privativo e TV",
+      "valor_diario": 350.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Ricardo Almeida",
+        "coren": "RS456789",
+        "cpf": "44455566677"
+      },
+      {
+        "nome": "Fernanda Costa",
+        "coren": "RS123456",
+        "cpf": "55566677788"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Tramadol",
+        "dosagem": "100mg",
+        "via": "intramuscular",
+        "frequencia": "8/8h"
+      },
+      {
+        "nome": "Cefalexina",
+        "dosagem": "1g",
+        "via": "oral",
+        "frequencia": "6/6h"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": "Dieta sem Mariscos"
+  },
+  {
+    "_id": "duplicada_1",
+    "paciente_id": "P02",
+    "medico_responsavel_id": "RJ654321",
+    "data_entrada": "2018-06-15T10:00:00Z",
+    "data_prevista_alta": "2018-06-20T10:00:00Z",
+    "data_efetiva_alta": "2018-06-19T14:00:00Z",
+    "diagnostico_principal": "Reinternação para controle",
+    "procedimentos": [
+      "Parto cesárea",
+      "Monitoramento fetal",
+      "Cuidados pós-parto"
+    ],
+    "quarto": {
+      "numero": "104",
+      "tipo": "Enfermaria",
+      "descricao": "Quarto coletivo (até 4 pacientes), banheiro compartilhado",
+      "valor_diario": 150.0
+    },
+    "enfermeiros_responsaveis": [
+      {
+        "nome": "Patricia Souza",
+        "coren": "RJ321654",
+        "cpf": "66677788899"
+      },
+      {
+        "nome": "Pedro Oliveira",
+        "coren": "CO000002",
+        "cpf": "16569785283"
+      },
+      {
+        "nome": "Camila Souza",
+        "coren": "CO000003",
+        "cpf": "28617509730"
+      }
+    ],
+    "medicamentos_utilizados": [
+      {
+        "nome": "Oxitocina",
+        "dosagem": "5UI",
+        "via": "intravenosa",
+        "frequencia": "dose única"
+      },
+      {
+        "nome": "Dipirona",
+        "dosagem": "1g",
+        "via": "intravenosa",
+        "frequencia": "6/6h"
+      }
+    ],
+    "motivo_alta": "Recuperação clínica",
+    "evolucao_diaria_resumida": [
+      "Estável no primeiro dia",
+      "Melhora progressiva no segundo dia",
+      "Pronto para alta no último dia"
+    ],
+    "contato_familiar_responsavel": {
+      "nome": "Familiar de Referência",
+      "telefone": "11999999999",
+      "parentesco": "Parente"
+    },
+    "dieta_especial": "Dieta sem Penicilina"
+  }
+]

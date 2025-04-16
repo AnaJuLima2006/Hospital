@@ -1,0 +1,1722 @@
+[
+  {
+    "id_paciente": "P01",
+    "nome": "Alfred Júnior",
+    "data_nascimento": "1980-03-15",
+    "documentos": {
+      "rg": "403764304",
+      "digito": "8",
+      "cpf": "7096443215",
+      "cartao_sus": "12345678900"
+    },
+    "genero": "Masculino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2010-01-01T00:00:00Z",
+    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "11945565999",
+        "whatsapp": true,
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua Santos",
+      "numero": 34,
+      "complemento": null,
+      "bairro": "Pelé",
+      "cidade": "Santos",
+      "estado": "SP",
+      "cep": "06221175"
+    },
+    "tipo_sanguineo": "O-",
+    "convenios": [
+      {
+        "nome": "Amil",
+        "cnpj": "98765432000111",
+        "tempo_carencia_dias": 90,
+        "numero_carteira": "123456789",
+        "principal": true
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Amendoim",
+        "gravidade": "leve",
+        "reacoes": [
+          "Coceira na pele",
+          "Diarreia"
+        ],
+        "observacao": "Alergia alimentar"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "Maria Silva",
+      "parentesco": "Esposa",
+      "telefone": "11987654321",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M01",
+        "nome_medicamento": "Torsilax (Carisoprodol + Paracetamol + Cafeína)",
+        "tipo": "comprimido",
+        "dosagem": "300mg + 250mg + 30mg",
+        "via_administracao": "oral",
+        "frequencia": {
+          "quantidade": 2,
+          "periodicidade": "dias",
+          "horarios": [
+            "08:00",
+            "20:00"
+          ]
+        },
+        "motivo": "Dor lombar crônica",
+        "data_inicio": "2024-03-10",
+        "data_termino": "2024-05-10",
+        "prescrito_por": {
+          "nome": "Dr. Carlos Mendes",
+          "crm": "SP123456",
+          "especialidade": "Ortopedia"
+        },
+        "observacoes": "Tomar após as refeições",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS001",
+        "data_consulta": "2015-03-15T09:30:00Z",
+        "especialidade": "Rotina",
+        "status": "realizada"
+      },
+      {
+        "id_consulta": "CONS016",
+        "data_consulta": "2020-11-09T10:00:00Z",
+        "especialidade": "Retorno",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P02",
+    "nome": "Mariana Oliveira Costa",
+    "data_nascimento": "1992-07-22",
+    "documentos": {
+      "rg": "289765432",
+      "digito": "1",
+      "cpf": "98765432109",
+      "cartao_sus": "23456789001"
+    },
+    "genero": "Feminino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2010-01-01T00:00:00Z",
+    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "21998765432",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "email",
+        "email": "mariana.costa@email.com",
+        "observacao": "Profissional",
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua das Flores",
+      "numero": 123,
+      "complemento": "Apto 302",
+      "bairro": "Copacabana",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "22021001"
+    },
+    "tipo_sanguineo": "A+",
+    "convenios": [
+      {
+        "nome": "SulAmérica",
+        "cnpj": "34567890000133",
+        "tempo_carencia_dias": 60,
+        "numero_carteira": "345678901",
+        "principal": true
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Penicilina",
+        "gravidade": "grave",
+        "reacoes": [
+          "Edema de glote"
+        ],
+        "observacao": "Alergia a antibióticos"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "Carlos Costa",
+      "parentesco": "Pai",
+      "telefone": "21987654321",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M02",
+        "nome_medicamento": "Fluoxetina (Prozac)",
+        "tipo": "cápsula",
+        "dosagem": "20mg",
+        "via_administracao": "oral",
+        "frequencia": {
+          "quantidade": 1,
+          "periodicidade": "dias"
+        },
+        "motivo": "Transtorno de ansiedade generalizada",
+        "data_inicio": "2024-01-15",
+        "data_termino": null,
+        "prescrito_por": {
+          "nome": "Dra. Ana Beatriz Souza",
+          "crm": "RJ654321",
+          "especialidade": "Psiquiatria"
+        },
+        "observacoes": "Tomar pela manhã",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS002",
+        "data_consulta": "2015-06-22T14:00:00Z",
+        "especialidade": "Especializada",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P03",
+    "nome": "Carlos Eduardo Santos",
+    "data_nascimento": "1985-11-30",
+    "documentos": {
+      "rg": "156789234",
+      "digito": "5",
+      "cpf": "45678912345",
+      "cartao_sus": "34567890123"
+    },
+    "genero": "Masculino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2010-01-01T00:00:00Z",
+    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "31987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "fixo",
+        "telefone": "3133334444",
+        "whatsapp": false,
+        "observacao": "Trabalho"
+      }
+    ],
+    "endereco": {
+      "logradouro": "Avenida Brasil",
+      "numero": 2000,
+      "complemento": null,
+      "bairro": "Funcionários",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "cep": "30140001"
+    },
+    "tipo_sanguineo": "B+",
+    "convenios": [
+      {
+        "nome": "Unimed",
+        "cnpj": "12345678000199",
+        "tempo_carencia_dias": 180,
+        "numero_carteira": "987654321",
+        "principal": true
+      },
+      {
+        "nome": "Particular",
+        "cnpj": null,
+        "tempo_carencia_dias": null,
+        "numero_carteira": null
+      }
+    ],
+    "alergias": [],
+    "contato_emergencia": {
+      "nome": "Maria Santos",
+      "parentesco": "Esposa",
+      "telefone": "31987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS003",
+        "data_consulta": "2016-01-10T10:15:00Z",
+        "especialidade": "Dermatológica",
+        "status": "realizada"
+      },
+      {
+        "id_consulta": "CONS017",
+        "data_consulta": "2021-03-22T14:15:00Z",
+        "especialidade": "Dermatológica",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P04",
+    "nome": "Ana Beatriz Silva",
+    "data_nascimento": "1998-04-12",
+    "documentos": {
+      "rg": "987654321",
+      "digito": "0",
+      "cpf": "12345665501",
+      "cartao_sus": "45678901234"
+    },
+    "genero": "Feminino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2010-01-01T00:00:00Z",
+    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "11976543210",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "email",
+        "email": "ana.silva@email.com",
+        "observacao": "Pessoal",
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua das Palmeiras",
+      "numero": 45,
+      "complemento": "Casa 2",
+      "bairro": "Jardim América",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01452000"
+    },
+    "tipo_sanguineo": "AB+",
+    "convenios": [
+      {
+        "nome": "Bradesco Saúde",
+        "cnpj": "23456789000122",
+        "tempo_carencia_dias": 120,
+        "numero_carteira": "567890123",
+        "principal": true
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Dipirona",
+        "gravidade": "moderada",
+        "reacoes": [
+          "Queda de pressão"
+        ],
+        "observacao": "Reação a analgésicos"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "João Silva",
+      "parentesco": "Pai",
+      "telefone": "11987654321",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M03",
+        "nome_medicamento": "Venvanse (Lisdexanfetamina)",
+        "tipo": "cápsula",
+        "dosagem": "30mg",
+        "via_administracao": "oral",
+        "frequencia": {
+          "quantidade": 1,
+          "periodicidade": "dias",
+          "horarios": [
+            "07:00"
+          ]
+        },
+        "motivo": "TDAH",
+        "data_inicio": "2023-11-20",
+        "data_termino": null,
+        "prescrito_por": {
+          "nome": "Dra. Fernanda Lima",
+          "crm": "SP987654",
+          "especialidade": "Psiquiatria"
+        },
+        "observacoes": "Tomar com água, evitar café",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS004",
+        "data_consulta": "2016-05-05T08:30:00Z",
+        "especialidade": "Cardiológica",
+        "status": "realizada"
+      },
+      {
+        "id_consulta": "CONS0021",
+        "data_consulta": "2016-08-19T12:00:00Z",
+        "especialidade": "Clínica Geral",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P05",
+    "nome": "Ricardo Almeida",
+    "data_nascimento": "1977-09-05",
+    "documentos": {
+      "rg": "345678901",
+      "digito": "2",
+      "cpf": "56789123456",
+      "cartao_sus": "56789012345"
+    },
+    "genero": "Masculino",
+    "status_paciente": "inativo",
+    "data_cadastro": "2010-01-01T00:00:00Z",
+    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "51987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "fixo",
+        "telefone": "5132221234",
+        "whatsapp": false,
+        "observacao": "Residencial"
+      }
+    ],
+    "endereco": {
+      "logradouro": "Avenida Protásio Alves",
+      "numero": 1234,
+      "complemento": null,
+      "bairro": "Petrópolis",
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "cep": "90470030"
+    },
+    "tipo_sanguineo": "O+",
+    "convenios": [
+      {
+        "nome": "Amil",
+        "cnpj": "98765432000111",
+        "tempo_carencia_dias": 90,
+        "numero_carteira": "123456789",
+        "principal": true
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Mariscos",
+        "gravidade": "grave",
+        "reacoes": [
+          "Choque anafilático"
+        ],
+        "observacao": "Alergia alimentar - evitar crustáceos"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "Sofia Almeida",
+      "parentesco": "Cônjuge",
+      "telefone": "51987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M04",
+        "nome_medicamento": "Losartana Potássica",
+        "tipo": "comprimido",
+        "dosagem": "50mg",
+        "via_administracao": "oral",
+        "frequencia": {
+          "quantidade": 1,
+          "periodicidade": "dias"
+        },
+        "motivo": "Hipertensão arterial",
+        "data_inicio": "2022-05-10",
+        "data_termino": null,
+        "prescrito_por": {
+          "nome": "Dr. Paulo Henrique",
+          "crm": "RS456789",
+          "especialidade": "Cardiologia"
+        },
+        "observacoes": "Tomar pela manhã",
+        "status": "ativo"
+      },
+      {
+        "id_medicamento": "M05",
+        "nome_medicamento": "Sinvastatina",
+        "tipo": "comprimido",
+        "dosagem": "20mg",
+        "via_administracao": "oral",
+        "frequencia": {
+          "quantidade": 1,
+          "periodicidade": "dias",
+          "horarios": [
+            "22:00"
+          ]
+        },
+        "motivo": "Dislipidemia",
+        "data_inicio": "2022-05-10",
+        "data_termino": null,
+        "prescrito_por": {
+          "nome": "Dr. Paulo Henrique",
+          "crm": "RS456789",
+          "especialidade": "Cardiologia"
+        },
+        "observacoes": "Tomar à noite",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS005",
+        "data_consulta": "2016-08-18T11:00:00Z",
+        "especialidade": "Pediatria",
+        "status": "realizada"
+      },
+      {
+        "id_consulta": "CONS018",
+        "data_consulta": "2021-08-05T08:30:00Z",
+        "especialidade": "Pediatria",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P06",
+    "nome": "Fernanda Pereira",
+    "data_nascimento": "1990-12-18",
+    "documentos": {
+      "rg": "456789012",
+      "digito": "3",
+      "cpf": "67891234567",
+      "cartao_sus": "67890123456"
+    },
+    "genero": "Feminino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2010-01-01T00:00:00Z",
+    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "41987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "email",
+        "email": "fernanda.pereira@email.com",
+        "observacao": "Pessoal",
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua XV de Novembro",
+      "numero": 500,
+      "complemento": "Sala 1001",
+      "bairro": "Centro",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "cep": "80020910"
+    },
+    "tipo_sanguineo": "A-",
+    "convenios": [
+      {
+        "nome": "Unimed",
+        "cnpj": "12345678000199",
+        "tempo_carencia_dias": 180,
+        "numero_carteira": "987654321",
+        "principal": true
+      },
+      {
+        "nome": "SulAmérica",
+        "cnpj": "34567890000133",
+        "tempo_carencia_dias": 60,
+        "numero_carteira": "345678901"
+      }
+    ],
+    "alergias": [],
+    "contato_emergencia": {
+      "nome": "Roberto Pereira",
+      "parentesco": "Irmão",
+      "telefone": "41987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS006",
+        "data_consulta": "2017-02-14T16:45:00Z",
+        "especialidade": "Ginecológica",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P07",
+    "nome": "Lucas Mendes",
+    "data_nascimento": "1988-06-25",
+    "documentos": {
+      "rg": "567890123",
+      "digito": "4",
+      "cpf": "78912345678",
+      "cartao_sus": "78901234567"
+    },
+    "genero": "Masculino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2023-12-05T09:30:00",
+    "data_ultima_alteracao": "2024-03-15T15:10:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "71987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "fixo",
+        "telefone": "7133335555",
+        "whatsapp": false,
+        "observacao": "Consultório"
+      }
+    ],
+    "endereco": {
+      "logradouro": "Avenida Sete de Setembro",
+      "numero": 1500,
+      "complemento": null,
+      "bairro": "Barra",
+      "cidade": "Salvador",
+      "estado": "BA",
+      "cep": "40130000"
+    },
+    "tipo_sanguineo": "B-",
+    "convenios": [
+      {
+        "nome": "Bradesco Saúde",
+        "cnpj": "23456789000122",
+        "tempo_carencia_dias": 120,
+        "numero_carteira": "567890123",
+        "principal": true
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Pólen",
+        "gravidade": "moderada",
+        "reacoes": [
+          "Rinite alérgica"
+        ],
+        "observacao": "Alergia sazonal - primavera"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "Camila Mendes",
+      "parentesco": "Cônjuge",
+      "telefone": "71987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M06",
+        "nome_medicamento": "Allegra (Fexofenadina)",
+        "tipo": "comprimido",
+        "dosagem": "180mg",
+        "via_administracao": "oral",
+        "frequencia": {
+          "quantidade": 1,
+          "periodicidade": "dias"
+        },
+        "motivo": "Rinite alérgica",
+        "data_inicio": "2024-03-01",
+        "data_termino": "2024-06-01",
+        "prescrito_por": {
+          "nome": "Dra. Juliana Castro",
+          "crm": "BA789012",
+          "especialidade": "Alergologia"
+        },
+        "observacoes": "Tomar pela manhã",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS007",
+        "data_consulta": "2017-07-30T13:20:00Z",
+        "especialidade": "Urológica",
+        "status": "realizada"
+      },
+      {
+        "id_consulta": "CONS019",
+        "data_consulta": "2021-10-18T11:45:00Z",
+        "especialidade": "Urológica",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P08",
+    "nome": "Patrícia Lima",
+    "data_nascimento": "1983-02-14",
+    "documentos": {
+      "rg": "678901234",
+      "digito": "5",
+      "cpf": "89123456789",
+      "cartao_sus": "89012345678"
+    },
+    "genero": "Feminino",
+    "status_paciente": "inativo",
+    "data_cadastro": "2023-10-20T13:15:00",
+    "data_ultima_alteracao": "2024-01-10T10:45:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "81987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "email",
+        "email": "patricia.lima@email.com",
+        "observacao": "Profissional",
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua do Sol",
+      "numero": 200,
+      "complemento": "Apto 501",
+      "bairro": "Boa Viagem",
+      "cidade": "Recife",
+      "estado": "PE",
+      "cep": "51021000"
+    },
+    "tipo_sanguineo": "AB-",
+    "convenios": [
+      {
+        "nome": "Amil",
+        "cnpj": "98765432000111",
+        "tempo_carencia_dias": 90,
+        "numero_carteira": "123456789",
+        "principal": true
+      },
+      {
+        "nome": "Particular",
+        "cnpj": null,
+        "tempo_carencia_dias": null,
+        "numero_carteira": null
+      }
+    ],
+    "alergias": [],
+    "contato_emergencia": {
+      "nome": "Carlos Lima",
+      "parentesco": "Pai",
+      "telefone": "81987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS008",
+        "data_consulta": "2017-11-05T09:00:00Z",
+        "especialidade": "Cardiológica",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P09",
+    "nome": "Amanda Freitas",
+    "data_nascimento": "1995-08-08",
+    "documentos": {
+      "rg": "789012345",
+      "digito": "6",
+      "cpf": "91234567890",
+      "cartao_sus": "90123456789"
+    },
+    "genero": "Feminino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2024-01-05T08:00:00",
+    "data_ultima_alteracao": "2024-04-02T14:20:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "62987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "fixo",
+        "telefone": "6232324567",
+        "whatsapp": false,
+        "observacao": "Trabalho"
+      }
+    ],
+    "endereco": {
+      "logradouro": "Avenida Tocantins",
+      "numero": 1000,
+      "complemento": null,
+      "bairro": "Setor Oeste",
+      "cidade": "Goiânia",
+      "estado": "GO",
+      "cep": "74115010"
+    },
+    "tipo_sanguineo": "A+",
+    "convenios": [
+      {
+        "nome": "Unimed",
+        "cnpj": "12345678000199",
+        "tempo_carencia_dias": 180,
+        "numero_carteira": "987654321",
+        "principal": true
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Iodo",
+        "gravidade": "moderada",
+        "reacoes": [
+          "Urticária"
+        ],
+        "observacao": "Reação a contrastes radiológicos"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "Ricardo Freitas",
+      "parentesco": "Irmão",
+      "telefone": "62987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M07",
+        "nome_medicamento": "Diane 35 (Etinilestradiol + Acetato de Ciproterona)",
+        "tipo": "comprimido",
+        "dosagem": "0,035mg + 2mg",
+        "via_administracao": "oral",
+        "frequencia": {
+          "quantidade": 1,
+          "periodicidade": "dias"
+        },
+        "motivo": "Contracepção e acne",
+        "data_inicio": "2023-09-15",
+        "data_termino": null,
+        "prescrito_por": {
+          "nome": "Dra. Carla Gomes",
+          "crm": "GO321654",
+          "especialidade": "Ginecologia"
+        },
+        "observacoes": "Tomar sempre no mesmo horário",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS009",
+        "data_consulta": "2018-04-12T15:30:00Z",
+        "especialidade": "Pediatria",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P10",
+    "nome": "Juliana Dias",
+    "data_nascimento": "1987-03-28",
+    "documentos": {
+      "rg": "890123456",
+      "digito": "7",
+      "cpf": "12345678901",
+      "cartao_sus": "01234567890"
+    },
+    "genero": "Feminino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2023-09-10T11:45:00",
+    "data_ultima_alteracao": "2024-03-20T09:30:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "85987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "email",
+        "email": "juliana.dias@email.com",
+        "observacao": "Pessoal",
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Avenida Santos Dumont",
+      "numero": 3000,
+      "complemento": "Apto 1201",
+      "bairro": "Aldeota",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "cep": "60150160"
+    },
+    "tipo_sanguineo": "O+",
+    "convenios": [
+      {
+        "nome": "SulAmérica",
+        "cnpj": "34567890000133",
+        "tempo_carencia_dias": 60,
+        "numero_carteira": "345678901",
+        "principal": true
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Picada de abelha",
+        "gravidade": "grave",
+        "reacoes": [
+          "Edema de glote"
+        ],
+        "observacao": "Reação alérgica a veneno de abelha"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "Carlos Dias",
+      "parentesco": "Marido",
+      "telefone": "85987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M08",
+        "nome_medicamento": "Epipen (Epinefrina)",
+        "tipo": "injetável",
+        "dosagem": "0,3mg",
+        "via_administracao": "intramuscular",
+        "frequencia": {
+          "quantidade": 0,
+          "periodicidade": "eventual"
+        },
+        "motivo": "Emergência para alergia a picada de abelha",
+        "data_inicio": "2023-05-15",
+        "data_termino": null,
+        "prescrito_por": {
+          "nome": "Dr. Roberto Alencar",
+          "crm": "CE987123",
+          "especialidade": "Alergologia"
+        },
+        "observacoes": "Usar apenas em emergências",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS010",
+        "data_consulta": "2018-09-20T10:45:00Z",
+        "especialidade": "Otorrinolaringológica",
+        "status": "realizada"
+      },
+      {
+        "id_consulta": "CONS020",
+        "data_consulta": "2021-12-07T15:00:00Z",
+        "especialidade": "Otorrinolaringológica",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P11",
+    "nome": "Gustavo Barbosa",
+    "data_nascimento": "1982-10-14",
+    "documentos": {
+      "rg": "901234567",
+      "digito": "8",
+      "cpf": "23456789012",
+      "cartao_sus": "12345098765"
+    },
+    "genero": "Masculino",
+    "status_paciente": "inativo",
+    "data_cadastro": "2023-08-15T10:30:00",
+    "data_ultima_alteracao": "2023-12-10T16:45:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "48987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "fixo",
+        "telefone": "4832229999",
+        "whatsapp": false,
+        "observacao": "Residencial"
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua das Palmeiras",
+      "numero": 150,
+      "complemento": null,
+      "bairro": "Centro",
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "cep": "88010000"
+    },
+    "tipo_sanguineo": "B+",
+    "convenios": [
+      {
+        "nome": "Bradesco Saúde",
+        "cnpj": "23456789000122",
+        "tempo_carencia_dias": 120,
+        "numero_carteira": "567890123",
+        "principal": true
+      }
+    ],
+    "alergias": [],
+    "contato_emergencia": {
+      "nome": "Ana Barbosa",
+      "parentesco": "Irmã",
+      "telefone": "48987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS011",
+        "data_consulta": "2019-01-25T08:15:00Z",
+        "especialidade": "Ortopédica",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P12",
+    "nome": "Rafael Monteiro",
+    "data_nascimento": "1986-01-17",
+    "documentos": {
+      "rg": "012345678",
+      "digito": "9",
+      "cpf": "34567890123",
+      "cartao_sus": "23456109876"
+    },
+    "genero": "Masculino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2024-03-01T14:00:00",
+    "data_ultima_alteracao": "2024-04-09T11:15:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "61987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "email",
+        "email": "rafael.monteiro@email.com",
+        "observacao": "Profissional",
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "SQN 406 Bloco C",
+      "numero": 12,
+      "complemento": "Apto 304",
+      "bairro": "Asa Norte",
+      "cidade": "Brasília",
+      "estado": "DF",
+      "cep": "70740560"
+    },
+    "tipo_sanguineo": "A-",
+    "convenios": [
+      {
+        "nome": "Amil",
+        "cnpj": "98765432000111",
+        "tempo_carencia_dias": 90,
+        "numero_carteira": "123456789",
+        "principal": true
+      },
+      {
+        "nome": "Unimed",
+        "cnpj": "12345678000199",
+        "tempo_carencia_dias": 180,
+        "numero_carteira": "987654321"
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Ácaros",
+        "gravidade": "moderada",
+        "reacoes": [
+          "Asma"
+        ],
+        "observacao": "Alergia respiratória"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "Patrícia Monteiro",
+      "parentesco": "Cônjuge",
+      "telefone": "61987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M09",
+        "nome_medicamento": "Seretide (Fluticasona + Salmeterol)",
+        "tipo": "spray",
+        "dosagem": "250mcg + 25mcg",
+        "via_administracao": "inalatória",
+        "frequencia": {
+          "quantidade": 2,
+          "periodicidade": "dias"
+        },
+        "motivo": "Asma alérgica",
+        "data_inicio": "2023-07-10",
+        "data_termino": null,
+        "prescrito_por": {
+          "nome": "Dr. Marcos Silva",
+          "crm": "DF456123",
+          "especialidade": "Pneumologia"
+        },
+        "observacoes": "Usar pela manhã e à noite",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS012",
+        "data_consulta": "2019-06-03T14:20:00Z",
+        "especialidade": "Endocrinológica",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P13",
+    "nome": "Camila Andrade",
+    "data_nascimento": "1989-05-23",
+    "documentos": {
+      "rg": "123456780",
+      "digito": "0",
+      "cpf": "45678901234",
+      "cartao_sus": "34567210987"
+    },
+    "genero": "Feminino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2024-02-10T09:45:00",
+    "data_ultima_alteracao": "2024-04-05T10:30:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "27987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "fixo",
+        "telefone": "2733337777",
+        "whatsapp": false,
+        "observacao": "Trabalho"
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua João da Cruz",
+      "numero": 85,
+      "complemento": null,
+      "bairro": "Praia do Canto",
+      "cidade": "Vitória",
+      "estado": "ES",
+      "cep": "29055470"
+    },
+    "tipo_sanguineo": "AB+",
+    "convenios": [
+      {
+        "nome": "SulAmérica",
+        "cnpj": "34567890000133",
+        "tempo_carencia_dias": 60,
+        "numero_carteira": "345678901",
+        "principal": true
+      }
+    ],
+    "alergias": [],
+    "contato_emergencia": {
+      "nome": "Ricardo Andrade",
+      "parentesco": "Pai",
+      "telefone": "27987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS013",
+        "data_consulta": "2019-10-15T11:10:00Z",
+        "especialidade": "Neurológica",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P14",
+    "nome": "Bruno Martins",
+    "data_nascimento": "1984-07-30",
+    "documentos": {
+      "rg": "234567891",
+      "digito": "1",
+      "cpf": "56789012345",
+      "cartao_sus": "45678321098"
+    },
+    "genero": "Masculino",
+    "status_paciente": "inativo",
+    "data_cadastro": "2023-07-20T15:30:00",
+    "data_ultima_alteracao": "2023-11-15T14:00:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "91987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "email",
+        "email": "bruno.martins@email.com",
+        "observacao": "Pessoal",
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Travessa Quintino Bocaiúva",
+      "numero": 1597,
+      "complemento": "Casa 2",
+      "bairro": "Nazaré",
+      "cidade": "Belém",
+      "estado": "PA",
+      "cep": "66035190"
+    },
+    "tipo_sanguineo": "O-",
+    "convenios": [
+      {
+        "nome": "Bradesco Saúde",
+        "cnpj": "23456789000122",
+        "tempo_carencia_dias": 120,
+        "numero_carteira": "567890123",
+        "principal": true
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Látex",
+        "gravidade": "moderada",
+        "reacoes": [
+          "Dermatite de contato"
+        ],
+        "observacao": "Reação a produtos de borracha natural"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "Fernanda Martins",
+      "parentesco": "Irmã",
+      "telefone": "91987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS014",
+        "data_consulta": "2020-02-28T09:45:00Z",
+        "especialidade": "Oftalmológica",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P15",
+    "nome": "Isabela Oliveira",
+    "data_nascimento": "1993-12-12",
+    "documentos": {
+      "rg": "345678912",
+      "digito": "2",
+      "cpf": "67890123456",
+      "cartao_sus": "56789432109"
+    },
+    "genero": "Feminino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2024-01-25T11:00:00",
+    "data_ultima_alteracao": "2024-04-03T09:45:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "67987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "fixo",
+        "telefone": "6732228888",
+        "whatsapp": false,
+        "observacao": "Consultório"
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua da Paz",
+      "numero": 456,
+      "complemento": "Sala 701",
+      "bairro": "Centro",
+      "cidade": "Campo Grande",
+      "estado": "MS",
+      "cep": "79002490"
+    },
+    "tipo_sanguineo": "A+",
+    "convenios": [
+      {
+        "nome": "Amil",
+        "cnpj": "98765432000111",
+        "tempo_carencia_dias": 90,
+        "numero_carteira": "123456789",
+        "principal": true
+      },
+      {
+        "nome": "Particular",
+        "cnpj": null,
+        "tempo_carencia_dias": null,
+        "numero_carteira": null
+      }
+    ],
+    "alergias": [],
+    "contato_emergencia": {
+      "nome": "Marcos Oliveira",
+      "parentesco": "Pai",
+      "telefone": "67987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M10",
+        "nome_medicamento": "Zolpidem",
+        "tipo": "comprimido",
+        "dosagem": "10mg",
+        "via_administracao": "oral",
+        "frequencia": {
+          "quantidade": 1,
+          "periodicidade": "dias",
+          "horarios": [
+            "22:00"
+          ]
+        },
+        "motivo": "Insônia",
+        "data_inicio": "2024-02-01",
+        "data_termino": "2024-05-01",
+        "prescrito_por": {
+          "nome": "Dr. Antônio Carlos",
+          "crm": "MS789456",
+          "especialidade": "Neurologia"
+        },
+        "observacoes": "Tomar apenas quando necessário",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": [
+      {
+        "id_consulta": "CONS015",
+        "data_consulta": "2020-07-17T16:30:00Z",
+        "especialidade": "Pneumológica",
+        "status": "realizada"
+      }
+    ]
+  },
+  {
+    "id_paciente": "P16",
+    "nome": "Thiago Ramos",
+    "data_nascimento": "1978-04-07",
+    "documentos": {
+      "rg": "456789123",
+      "digito": "3",
+      "cpf": "78901234567",
+      "cartao_sus": "67890543210"
+    },
+    "genero": "Masculino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2023-06-10T08:15:00",
+    "data_ultima_alteracao": "2024-02-28T14:30:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "65987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "email",
+        "email": "thiago.ramos@email.com",
+        "observacao": "Profissional",
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Avenida Historiador Rubens de Mendonça",
+      "numero": 3215,
+      "complemento": "Bloco 2",
+      "bairro": "Bosque da Saúde",
+      "cidade": "Cuiabá",
+      "estado": "MT",
+      "cep": "78050000"
+    },
+    "tipo_sanguineo": "B-",
+    "convenios": [
+      {
+        "nome": "Unimed",
+        "cnpj": "12345678000199",
+        "tempo_carencia_dias": 180,
+        "numero_carteira": "987654321",
+        "principal": true
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Ovos",
+        "gravidade": "moderada",
+        "reacoes": [
+          "Dor abdominal",
+          "Vômitos"
+        ],
+        "observacao": "Alergia alimentar"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "Carla Ramos",
+      "parentesco": "Esposa",
+      "telefone": "65987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [],
+    "historico_consultas": []
+  },
+  {
+    "id_paciente": "P17",
+    "nome": "Luana Ferreira",
+    "data_nascimento": "1996-09-19",
+    "documentos": {
+      "rg": "567891234",
+      "digito": "4",
+      "cpf": "89012345678",
+      "cartao_sus": "78901654321"
+    },
+    "genero": "Feminino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2024-03-05T10:45:00",
+    "data_ultima_alteracao": "2024-04-10T08:30:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "98987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "fixo",
+        "telefone": "9832321111",
+        "whatsapp": false,
+        "observacao": "Residencial"
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua Grande",
+      "numero": 100,
+      "complemento": "Apto 201",
+      "bairro": "Centro",
+      "cidade": "São Luís",
+      "estado": "MA",
+      "cep": "65010000"
+    },
+    "tipo_sanguineo": "O+",
+    "convenios": [
+      {
+        "nome": "SulAmérica",
+        "cnpj": "34567890000133",
+        "tempo_carencia_dias": 60,
+        "numero_carteira": "345678901",
+        "principal": true
+      }
+    ],
+    "alergias": [],
+    "contato_emergencia": {
+      "nome": "Pedro Ferreira",
+      "parentesco": "Irmão",
+      "telefone": "98987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M11",
+        "nome_medicamento": "Dramin (Dimenidrinato)",
+        "tipo": "comprimido",
+        "dosagem": "50mg",
+        "via_administracao": "oral",
+        "frequencia": {
+          "quantidade": 1,
+          "periodicidade": "eventual"
+        },
+        "motivo": "Enjoo em viagens",
+        "data_inicio": "2024-02-15",
+        "data_termino": null,
+        "prescrito_por": {
+          "nome": "Dra. Renata Alves",
+          "crm": "MA123987",
+          "especialidade": "Clínica Geral"
+        },
+        "observacoes": "Tomar 30 minutos antes de viajar",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": []
+  },
+  {
+    "id_paciente": "P18",
+    "nome": "Diego Souza",
+    "data_nascimento": "1981-11-22",
+    "documentos": {
+      "rg": "678912345",
+      "digito": "5",
+      "cpf": "90123456789",
+      "cartao_sus": "89012765432"
+    },
+    "genero": "Masculino",
+    "status_paciente": "inativo",
+    "data_cadastro": "2023-05-15T13:30:00",
+    "data_ultima_alteracao": "2023-10-10T11:45:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "69987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "email",
+        "email": "diego.souza@email.com",
+        "observacao": "Pessoal",
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua Rondônia",
+      "numero": 500,
+      "complemento": null,
+      "bairro": "Nova Porto Velho",
+      "cidade": "Porto Velho",
+      "estado": "RO",
+      "cep": "76803378"
+    },
+    "tipo_sanguineo": "AB+",
+    "convenios": [
+      {
+        "nome": "Bradesco Saúde",
+        "cnpj": "23456789000122",
+        "tempo_carencia_dias": 120,
+        "numero_carteira": "567890123",
+        "principal": true
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Amoxicilina",
+        "gravidade": "moderada",
+        "reacoes": [
+          "Erupção cutânea"
+        ],
+        "observacao": "Alergia a antibióticos penicilínicos"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "Tatiana Souza",
+      "parentesco": "Esposa",
+      "telefone": "69987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [],
+    "historico_consultas": []
+  },
+  {
+    "id_paciente": "P19",
+    "nome": "Carolina Mendonça Rocha",
+    "data_nascimento": "1994-05-17",
+    "documentos": {
+      "rg": "789123456",
+      "digito": "6",
+      "cpf": "01234567890",
+      "cartao_sus": "90123456789"
+    },
+    "genero": "Feminino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2024-04-15T08:20:00",
+    "data_ultima_alteracao": "2024-04-15T08:20:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "11987654321",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "email",
+        "email": "carolina.rocha@email.com",
+        "observacao": "Pessoal",
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua das Acácias",
+      "numero": 42,
+      "complemento": "Bloco B, Apto 302",
+      "bairro": "Jardim Botânico",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "02415010"
+    },
+    "tipo_sanguineo": "A+",
+    "convenios": [
+      {
+        "nome": "NotreDame Intermédica",
+        "cnpj": "11222333000144",
+        "tempo_carencia_dias": 30,
+        "numero_carteira": "112233445",
+        "principal": true
+      }
+    ],
+    "alergias": [
+      {
+        "tipo": "Castanha",
+        "gravidade": "grave",
+        "reacoes": [
+          "Edema de glote",
+          "Urticária"
+        ],
+        "observacao": "Alergia alimentar - evitar todos tipos de castanhas"
+      }
+    ],
+    "contato_emergencia": {
+      "nome": "Marcos Rocha",
+      "parentesco": "Marido",
+      "telefone": "11987651234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M12",
+        "nome_medicamento": "EpiPen (Epinefrina)",
+        "tipo": "injetável",
+        "dosagem": "0,3mg",
+        "via_administracao": "intramuscular",
+        "frequencia": {
+          "quantidade": 0,
+          "periodicidade": "eventual"
+        },
+        "motivo": "Emergência para alergia a castanhas",
+        "data_inicio": "2023-08-20",
+        "data_termino": null,
+        "prescrito_por": {
+          "nome": "Dra. Patrícia Nunes",
+          "crm": "SP654987",
+          "especialidade": "Alergologia"
+        },
+        "observacoes": "Usar apenas em caso de reação alérgica grave",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": []
+  },
+  {
+    "id_paciente": "P20",
+    "nome": "Eduardo Nascimento Lima",
+    "data_nascimento": "1980-12-03",
+    "documentos": {
+      "rg": "890234567",
+      "digito": "7",
+      "cpf": "98765432100",
+      "cartao_sus": "01234567891"
+    },
+    "genero": "Masculino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2024-03-22T14:10:00",
+    "data_ultima_alteracao": "2024-04-10T09:15:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "21998765432",
+        "whatsapp": true,
+        "principal": true
+      },
+      {
+        "tipo": "fixo",
+        "telefone": "2133334444",
+        "whatsapp": false,
+        "observacao": "Residencial"
+      }
+    ],
+    "endereco": {
+      "logradouro": "Avenida das Américas",
+      "numero": 3500,
+      "complemento": "Sala 405",
+      "bairro": "Barra da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "22640002"
+    },
+    "tipo_sanguineo": "B-",
+    "convenios": [
+      {
+        "nome": "Unimed",
+        "cnpj": "12345678000199",
+        "tempo_carencia_dias": 180,
+        "numero_carteira": "987654321",
+        "principal": true
+      },
+      {
+        "nome": "Particular",
+        "cnpj": null,
+        "tempo_carencia_dias": null,
+        "numero_carteira": null
+      }
+    ],
+    "alergias": [],
+    "contato_emergencia": {
+      "nome": "Patrícia Lima",
+      "parentesco": "Esposa",
+      "telefone": "21998761234",
+      "whatsapp": true
+    },
+    "uso_medicamento": [
+      {
+        "id_medicamento": "M13",
+        "nome_medicamento": "Cialis (Tadalafila)",
+        "tipo": "comprimido",
+        "dosagem": "5mg",
+        "via_administracao": "oral",
+        "frequencia": {
+          "quantidade": 1,
+          "periodicidade": "dias"
+        },
+        "motivo": "Disfunção erétil",
+        "data_inicio": "2024-02-15",
+        "data_termino": null,
+        "prescrito_por": {
+          "nome": "Dr. Roberto Campos",
+          "crm": "RJ789654",
+          "especialidade": "Urologia"
+        },
+        "observacoes": "Tomar diariamente",
+        "status": "ativo"
+      }
+    ],
+    "historico_consultas": []
+  }
+]
