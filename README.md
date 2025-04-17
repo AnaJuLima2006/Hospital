@@ -35,9 +35,6 @@ Armazena os dados completos de todos os médicos registrados no hospital, com ca
 * Convênios, alergias, uso de medicamentos
 * Histórico de consultas (campo adicionado que armazena um resumo das consultas realizadas por cada paciente)
 
-![Modelo do Projeto](assets/modeloHospital.png)
-
-
 ### 📌 Coleção: consultas
 
 Registra os atendimentos realizados entre médicos e pacientes, incluindo:
@@ -68,6 +65,9 @@ O script principal (em MongoDB Shell) está dividido em blocos que:
 * Atualizam campos no banco (updateMany, updateOne)
 * Realizam consultas com find, aggregate, lookup, match, project, unwind e operadores como $dateDiff, $expr, $avg, $group.
 * Fornecem inteligência sobre os dados: médias, totais, comparações, filtragens avançadas.
+
+![Modelo do Projeto](assets/modeloHospital.png)
+
 
 ## 🧾 Requisitos dos sistema 
 
