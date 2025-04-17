@@ -1,5 +1,4 @@
-
-# MongoDB Queries - Projeto Hospital Vivare
+# MongoDB Queries - Projeto Hospital
 
 ## 1. Adicionar coluna "em_atividade" aos médicos
 
@@ -99,7 +98,7 @@ db.consultas.find({ "receituario.adicional": { $exists: true } }).sort({ data_co
 ```
 
 ### Explicação detalhada:
-- `"receituario.adicional": { $exists: true }`: busca consultas que têm esse campo preenchido.
+- `receituario.adicional: { $exists: true }`: busca consultas com campo preenchido.
 - `.sort({ data_consulta: 1 })`: ordena pela data da mais antiga para a mais recente.
 - `.limit(1)`: retorna apenas o primeiro resultado.
 
@@ -114,8 +113,147 @@ db.consultas.find({ forma_pagamento: { $ne: "convênio" } }).sort({ valor_consul
 ```
 
 ### Explicação detalhada:
-- `$ne: "convênio"`: filtra as consultas com qualquer forma de pagamento que não seja convênio.
-- `.sort({ valor_consulta: -1 })`: ordena do valor mais alto ao mais baixo.
-- `.sort({ valor_consulta: 1 })`: ordena do mais baixo ao mais alto.
+- `$ne: "convênio"`: filtra consultas com outra forma de pagamento.
+- `.sort({ valor_consulta: -1 })`: maior valor.
+- `.sort({ valor_consulta: 1 })`: menor valor.
 
 ---
+
+## 7. Cálculo total de internações
+
+### Código:
+```js
+db.internacoes.aggregate([
+  {
+    $project: {
+      paciente_id: 1,
+      quarto: 1,
+      dias_internacao: {
+        $dateDiff: {
+          startDate: "$data_entrada",
+          endDate: "$data_efetiva_alta",
+          unit: "day"
+        }
+      },
+      valor_diario: "$quarto.valor_diario",
+      total: {
+        $multiply: [
+          "$quarto.valor_diario",
+          {
+            $dateDiff: {
+              startDate: "$data_entrada",
+              endDate: "$data_efetiva_alta",
+              unit: "day"
+            }
+          }
+        ]
+      }
+    }
+  }
+]);
+```
+
+### Explicação detalhada:
+- `$project`: cria novos campos no resultado.
+- `$dateDiff`: calcula duração da internação.
+- `$multiply`: custo total = dias * valor_diário.
+
+---
+
+## 8. Internações em "Apartamento"
+
+### Código:
+```js
+db.internacoes.find({ "quarto.tipo": "Apartamento" }, { paciente_id: 1, procedimentos: 1, "quarto.numero": 1 });
+```
+
+### Explicação detalhada:
+- Filtra quartos do tipo “Apartamento”.
+- Exibe apenas campos necessários.
+
+---
+
+## 9. Consultas de menores de 18 fora da pediatria
+
+### Código:
+```js
+db.consultas.aggregate([
+  { $lookup: { from: "pacientes", localField: "paciente_id", foreignField: "id_paciente", as: "paciente" }},
+  { $unwind: "$paciente" },
+  { $addFields: {
+    idade_na_consulta: { $dateDiff: { startDate: "$paciente.data_nascimento", endDate: "$data_consulta", unit: "year" } }
+  }},
+  { $match: { idade_na_consulta: { $lt: 18 }, tipo_consulta: { $ne: "Pediatria" } }},
+  { $sort: { data_consulta: 1 }},
+  { $project: { nome_paciente: "$paciente.nome", data_consulta: 1, tipo_consulta: 1, diagnostico: 1 } }
+]);
+```
+
+### Explicação detalhada:
+- Junta com pacientes, calcula idade e filtra os casos de menores de idade não atendidos em Pediatria.
+
+---
+
+## 10. Internações feitas por gastroenterologistas em enfermarias
+
+### Código:
+```js
+db.internacoes.aggregate([
+  { $lookup: { from: "medicos", localField: "medico_responsavel_id", foreignField: "documentos.crm", as: "medico" }},
+  { $unwind: "$medico" },
+  { $match: { "medico.especialidade": "Gastroenterologia", "quarto.tipo": "Enfermaria" }},
+  { $project: { nome_paciente: 1, nome_medico: "$medico.nome", procedimentos: 1, quarto: 1 } }
+]);
+```
+
+### Explicação detalhada:
+- Filtra internações feitas por médicos gastro em quartos do tipo enfermaria.
+
+---
+
+## 11. Quantidade de consultas por médico
+
+### Código:
+```js
+db.consultas.aggregate([
+  { $group: { _id: "$medico_id", total_consultas: { $sum: 1 } }},
+  { $lookup: { from: "medicos", localField: "_id", foreignField: "documentos.crm", as: "medico" }},
+  { $unwind: "$medico" },
+  { $project: { nome_medico: "$medico.nome", crm: "$_id", total_consultas: 1 } }
+]);
+```
+
+### Explicação detalhada:
+- Agrupa por médico e conta quantas consultas cada um realizou.
+
+---
+
+## 12. Médicos com "Gabriel" no nome
+
+### Código:
+```js
+db.medicos.find({ nome: /Gabriel/i });
+```
+
+### Explicação detalhada:
+- Regex que busca “Gabriel” ignorando maiúsculas e minúsculas.
+
+---
+
+## 13. Enfermeiros com mais de uma internação
+
+### Código:
+```js
+db.internacoes.aggregate([
+  { $unwind: "$enfermeiros_responsaveis" },
+  { $group: {
+    _id: "$enfermeiros_responsaveis.coren",
+    nome: { $first: "$enfermeiros_responsaveis.nome" },
+    total_internacoes: { $sum: 1 }
+  }},
+  { $match: { total_internacoes: { $gt: 1 } }}
+]);
+```
+
+### Explicação detalhada:
+- Conta quantas internações cada enfermeiro participou e retorna os que têm mais de uma.
