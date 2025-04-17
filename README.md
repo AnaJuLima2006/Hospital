@@ -67,18 +67,23 @@ O script principal (em MongoDB Shell) está dividido em blocos que:
 * Realizam consultas com find, aggregate, lookup, match, project, unwind e operadores como $dateDiff, $expr, $avg, $group.
 * Fornecem inteligência sobre os dados: médias, totais, comparações, filtragens avançadas.
 
-  
+## 🧾 Requisitos dos sistema 
 
-## 🧾 Consultas Inteligentes (queries)
-
-* Inclui ao menos 12 médicos de  diferentes especialidades.
-* Ao menos sete especialidades (considere a afirmação de que “entre as especialidades há pediatria, clínica geral, gastrenterologia e dermatologia”).
-* Incluindo pelo menos 15 pacientes.
-* Registre 20 consultas de diferentes pacientes e diferentes médicos (alguns pacientes realizam mais que uma consulta). As consultas devem ter ocorrido entre 01/01/2015 e 01/01/2022. Ao menos dez consultas ter receituário com dois ou mais medicamentos.  
-* Relação Internacional com IDs de Médicos e Pacientes.
-* Registre ao menos sete internações. Pelo menos dois pacientes devem ser internados mais de uma vez. Ao menos três quartos deverão ser cadastrados. As internações devem ter ocorrido entre 01/01/2015 e 01/01/2022.  
-* Considerando que “a princípio o hospital funciona com apartamentos, quartos duplos e enfermaria”, incluindo ao menos esses três tipos com valores diferentes.
-* Inclui dados de dez profissionais de enfermagem. Associação cada internacional a pelo menos dois enfermeiros.
-* Os dados do tipo de quarto, convênio e especialidade são essenciais para o funcionamento do sistema e, portanto, devem ser povoados assim que o sistema for instalado.
+* ✅ Inclui pelo menos 12 médicos de diferentes especialidades.
+* ✅ Ao menos sete especialidades (ex.: Pediatria, Clínica Geral, Gastroenterologia, Dermatologia).
+* ✅ Inclui ao menos 15 pacientes.
+* ✅ Cadastre 20 consultas de diferentes pacientes e diferentes médicos.
+    * ✅ Alguns pacientes devem realizar mais de uma consulta.
+    * ✅ As consultas devem ter ocorrido entre 01/01/2015 e 01/01/2022.
+    * ✅ Pelo menos 10 consultas devem ter receituário com dois ou mais medicamentos.
+* ✅ Relacionamento internacional com IDs de médicos e pacientes.
+* ✅ Cadastre-se ao menos 7 internações.
+  * ✅ Pelo menos 2 pacientes deverão ter sido internados mais de uma vez.
+  * ✅ Pelo menos 3 quartos devem ser cadastrados.
+  * ✅ As internações ocorreram entre 01/01/2015 e 01/01/2022.
+  * ✅ Inclui os tipos de quarto: apartamento, quarto duplo e enfermaria, com valores diferentes.
+  * ✅ Inclui dados de 10 profissionais de enfermagem.
+  * ✅ Associar cada internação a pelo menos 2 enfermeiros.
+  * ✅ Os dados de tipo de quarto, convênio e especialidade devem ser povoados no início do sistema.
 --- 
 **Banco de dados NoSQL otimizado para ambientes hospitalares.**
