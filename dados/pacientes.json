@@ -1718,5 +1718,94 @@
       }
     ],
     "historico_consultas": []
+  },
+  {
+    "id_paciente": "P21",
+    "nome": "Marielle Damaceno",
+    "data_nascimento": "1985-11-09",
+    "documentos": {
+      "rg": "853694567",
+      "digito": "9",
+      "cpf": "23658432100",
+      "cartao_sus": "47586567891"
+    },
+    "genero": "Feminino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2024-03-22T14:15:00",
+    "data_ultima_alteracao": "2024-05-10T09:30:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "21998765432",
+        "whatsapp": true,
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Avenida das Amoras",
+      "numero": 38,
+      "complemento": null,
+      "bairro": "Jardim Aurora",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "69898669"
+    },
+    "tipo_sanguineo": "A-",
+    "convenios": null,
+    "forma_pagamento_preferida": "dinheiro",
+    "alergias": [],
+    "contato_emergencia": {
+      "nome": "Robert Jailson",
+      "parentesco": "Primo",
+      "telefone": "21998765620",
+      "whatsapp": true
+    },
+    "uso_medicamento": null,
+    "historico_consultas": []
+  },
+  {
+    "id_paciente": "P22",
+    "nome": "João Gomes",
+    "data_nascimento": "1972-10-09",
+    "documentos": {
+      "rg": "853695489",
+      "digito": "8",
+      "cpf": "89748435600",
+      "cartao_sus": "94582364891"
+    },
+    "genero": "Masculino",
+    "status_paciente": "ativo",
+    "data_cadastro": "2024-02-15T14:15:00",
+    "data_ultima_alteracao": "2023-05-10T09:30:00",
+    "contatos": [
+      {
+        "tipo": "celular",
+        "telefone": "56328763654",
+        "whatsapp": true,
+        "principal": true
+      }
+    ],
+    "endereco": {
+      "logradouro": "Avenida das Arvores Silvestres",
+      "numero": 3569,
+      "complemento": null,
+      "bairro": "Guaianases",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "65985201"
+    },
+    "tipo_sanguineo": "O",
+    "convenios": null,
+    "forma_pagamento_preferida": "pix",
+    "alergias": [],
+    "contato_emergencia": {
+      "nome": "Lais Gomes",
+      "parentesco": "Esposa",
+      "telefone": "21998765693",
+      "whatsapp": true
+    },
+    "uso_medicamento": [],
+    "historico_consultas": []
   }
+  
 ]
