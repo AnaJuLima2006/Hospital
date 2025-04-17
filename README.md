@@ -11,7 +11,7 @@ Este repositório contém o script de manipulação, atualização e consulta de
 
 ## 📚 Funcionalidades
 
-🔹 Coleção: medicos
+## 📌 Coleção: medicos
 Armazena os dados completos de todos os médicos registrados no hospital, com campos como:
 
 * CRM, CPF, RG
@@ -26,7 +26,7 @@ Armazena os dados completos de todos os médicos registrados no hospital, com ca
 
 🔧 Script incluído atualiza dois médicos como inativos e marca todos os demais como ativos.
 
-### 🔹Coleção: pacientes
+### 📌Coleção: pacientes
 
 * Contém as informações dos pacientes do hospital, como:
 * Dados pessoais e de contato
@@ -36,7 +36,7 @@ Armazena os dados completos de todos os médicos registrados no hospital, com ca
 ![Modelo do Projeto](assets/modeloHospital.png)
 
 
-### 🔹 Coleção: consultas
+### 📌 Coleção: consultas
 
 Registra os atendimentos realizados entre médicos e pacientes, incluindo:
 
@@ -51,7 +51,7 @@ Registra os atendimentos realizados entre médicos e pacientes, incluindo:
 * Consultas com receituários múltiplos
 * Consultas de menor e maior valor não-convênio
   
-### 🔹 Coleção: internacoes
+### 📌 Coleção: internacoes
 
 * Controla os dados de internações hospitalares:
 * Data de entrada, previsão e alta efetiva
@@ -60,7 +60,7 @@ Registra os atendimentos realizados entre médicos e pacientes, incluindo:
 * Motivo da alta, evolução diária, contato familiar responsável e dieta especial — campos novos adicionados ao modelo
 * Profissionais de enfermagem responsáveis (COREN e CPF)
 
-## 🔹Conteúdo do Script
+## 📌 Conteúdo do Script
 O script principal (em MongoDB Shell) está dividido em blocos que:
 
 * Atualizam campos no banco (updateMany, updateOne)
