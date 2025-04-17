@@ -33,6 +33,7 @@ Armazena os dados completos de todos os médicos registrados no hospital, com ca
 * Convênios, alergias, uso de medicamentos
 * Histórico de consultas (campo adicionado que armazena um resumo das consultas realizadas por cada paciente)
 
+![Modelo do Projeto](assets/modeloHospital.png)
 
 
 ### 🔹 Coleção: consultas
