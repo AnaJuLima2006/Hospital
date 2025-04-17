@@ -59,7 +59,7 @@ Registra os atendimentos realizados entre médicos e pacientes, incluindo:
 * Motivo da alta, evolução diária, contato familiar responsável e dieta especial — campos novos adicionados ao modelo
 * Profissionais de enfermagem responsáveis (COREN e CPF)
 
-  ![Modelo do Projeto](assets/modeloHospital.png)
+![Modelo do Projeto](assets/modeloHospital.png)
 
 ### 🔗 Conteúdo do Script
 O script principal (em MongoDB Shell) está dividido em blocos que:
@@ -67,9 +67,6 @@ O script principal (em MongoDB Shell) está dividido em blocos que:
 * Atualizam campos no banco (updateMany, updateOne)
 * Realizam consultas com find, aggregate, lookup, match, project, unwind e operadores como $dateDiff, $expr, $avg, $group.
 * Fornecem inteligência sobre os dados: médias, totais, comparações, filtragens avançadas.
-
-![Modelo do Projeto](assets/modeloHospital.png)
-
 
 ## 🧾 Requisitos dos sistema 
 
