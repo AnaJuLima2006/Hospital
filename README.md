@@ -66,6 +66,8 @@ O script principal (em MongoDB Shell) está dividido em blocos que:
 * Realizam consultas com find, aggregate, lookup, match, project, unwind e operadores como $dateDiff, $expr, $avg, $group.
 * Fornecem inteligência sobre os dados: médias, totais, comparações, filtragens avançadas.
 
+  
+
 ## 🧾 Consultas Inteligentes (queries)
 
 Inclui ao menos 12 médicos de  diferentes especialidades.
