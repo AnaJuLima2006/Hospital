@@ -13,7 +13,7 @@ Este repositório contém o script de manipulação, atualização e consulta de
 
 ## 📚 Funcionalidades
 
-## 📌 Coleção: medicos
+### 📌 Coleção: medicos
 Armazena os dados completos de todos os médicos registrados no hospital, com campos como:
 
 * CRM, CPF, RG
