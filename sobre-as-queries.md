@@ -1,5 +1,5 @@
 
-# MongoDB Queries - Projeto Hospital
+# MongoDB Queries - Projeto Hospital Vivare
 
 ## 1. Adicionar coluna "em_atividade" aos médicos
 
