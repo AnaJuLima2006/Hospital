@@ -8,6 +8,8 @@ Este repositório contém o script de manipulação, atualização e consulta de
 
 - `scripts/hospital_queries.js`: comandos em MongoDB Shell para atualizar e consultar dados.
 - `dados/`: arquivos JSON de exemplo contendo registros reais de médicos, pacientes, consultas e internações.
+- `assets/modelo`: png com a imagem do modelo ilustrando o sistema.
+- `sobre-as-queries.md`: arquivo read me detalhando e explicando cada querie feita dentro do sistema.
 
 ## 📚 Funcionalidades
 
