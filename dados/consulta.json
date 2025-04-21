@@ -25,7 +25,7 @@
     },
     "observacoes": "Retorno em 3 meses para reavaliação",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 155.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -54,7 +54,7 @@
     },
     "observacoes": "Evitar alimentos ácidos e condimentados",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 252.5,
     "forma_pagamento": "convênio"
   },
   {
@@ -78,7 +78,7 @@
     },
     "observacoes": "Manter hidratação da pele",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 180.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -107,7 +107,7 @@
     },
     "observacoes": "Monitorar frequência cardíaca",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 240.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -136,7 +136,7 @@
     },
     "observacoes": "Retornar se febre persistir após 48h",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 172.5,
     "forma_pagamento": "convênio"
   },
   {
@@ -165,7 +165,7 @@
     },
     "observacoes": "Ultrassom de controle em 3 meses",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 225.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -189,7 +189,7 @@
     },
     "observacoes": "Aumentar ingestão de líquidos",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 200.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -218,7 +218,7 @@
     },
     "observacoes": "Iniciar dieta hipossódica",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 250.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -247,7 +247,7 @@
     },
     "observacoes": "Repouso e hidratação. ATENÇÃO: Paciente com alergia a Iodo - evitar medicamentos contendo iodetos.",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 170.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -276,7 +276,7 @@
     },
     "observacoes": "Evitar alérgenos conhecidos",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 190.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -305,7 +305,7 @@
     },
     "observacoes": "Fisioterapia indicada",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 205.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -329,7 +329,7 @@
     },
     "observacoes": "Exames de TSH em 6 semanas",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 215.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -358,7 +358,7 @@
     },
     "observacoes": "Manter diário das crises",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 252.5,
     "forma_pagamento": "convênio"
   },
   {
@@ -387,7 +387,7 @@
     },
     "observacoes": "Evitar coçar os olhos.",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 187.5,
     "forma_pagamento": "convênio"
   },
   {
@@ -416,7 +416,7 @@
     },
     "observacoes": "Uso correto do inalador demonstrado",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 240.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -440,7 +440,7 @@
     },
     "observacoes": "Pressão arterial dentro dos limites normais",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 125.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -469,7 +469,7 @@
     },
     "observacoes": "Melhora significativa da dermatite atópica",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 200.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -493,7 +493,7 @@
     },
     "observacoes": "Hidratação e repouso",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 160.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -522,7 +522,7 @@
     },
     "observacoes": "Aumentar ingestão hídrica para 3L/dia",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 220.0,
     "forma_pagamento": "convênio"
   },
   {
@@ -551,7 +551,7 @@
     },
     "observacoes": "Retornar se sintomas persistirem após 7 dias. ATENÇÃO: Prescrição ajustada por histórico alérgico.",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 185.0,
     "forma_pagamento": "Dinheiro"
   },
   {
@@ -580,15 +580,15 @@
     },
     "observacoes": "Retornar se febre persistir após 48h. ATENÇÃO: Paciente alérgico a Dipirona - prescrito Paracetamol como alternativa.",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 165.0,
     "forma_pagamento": "Pix"
   },
   {
     "id_consulta": "CONS0022",
     "paciente_id": "P04",
     "medico_id": "PR987321",
-   "data_consulta": { 
-    "$date": "2018-08-31T12:00:00+00:00" 
+    "data_consulta": {
+      "$date": "2018-08-31T12:00:00+00:00"
     },
     "duracao_minutos": 30,
     "tipo_consulta": "Clínica Geral",
@@ -598,7 +598,7 @@
     },
     "observacoes": "O paciente melhorou",
     "status": "realizada",
-    "valor_consulta": 150.0,
+    "valor_consulta": 145.0,
     "forma_pagamento": "Boleto"
   }
 ]
