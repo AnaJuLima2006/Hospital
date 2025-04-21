@@ -512,7 +512,7 @@
     "observacoes": "Retornar se sintomas persistirem após 7 dias. ATENÇÃO: Prescrição ajustada por histórico alérgico.",
     "status": "realizada",
     "valor_consulta": 150.0,
-    "forma_pagamento": "convênio"
+    "forma_pagamento": "Dinheiro"
   },
   {
     "id_consulta": "CONS0021",
@@ -539,6 +539,22 @@
     "observacoes": "Retornar se febre persistir após 48h. ATENÇÃO: Paciente alérgico a Dipirona - prescrito Paracetamol como alternativa.",
     "status": "realizada",
     "valor_consulta": 150.0,
-    "forma_pagamento": "convênio"
+    "forma_pagamento": "Pix"
+  },
+  {
+    "id_consulta": "CONS0022",
+    "paciente_id": "P04",
+    "medico_id": "PR987321",
+    "data_consulta": "2016-08-33T12:00:00Z",
+    "duracao_minutos": 30,
+    "tipo_consulta": "Clínica Geral",
+    "diagnostico": "Retorno",
+    "receituario": {
+      "medicamentos": []
+    },
+    "observacoes": "O paciente melhorou",
+    "status": "realizada",
+    "valor_consulta": 150.0,
+    "forma_pagamento": "Boleto"
   }
 ]
