@@ -1,11 +1,3 @@
-// 0. Adicionar campo "id_medico" baseado no CRM (caso não exista)
-db.medicos.updateMany(
-  { "id_medico": { $exists: false } },
-  [
-    { $set: { id_medico: "$documentos.crm" } }
-  ]
-);
-
 // 1. Adicionar campo "em_atividade" para todos os médicos
 // true = em atividade; false = inativo
 db.medicos.updateMany(
