@@ -3,7 +3,9 @@
     "id_consulta": "CONS001",
     "paciente_id": "P01",
     "medico_id": "SP123456",
-    "data_consulta": "2015-03-15T09:30:00Z",
+    "data_consulta": {
+      "$date": "2015-03-15T09:30:00+00:00"
+    },
     "duracao_minutos": 30,
     "tipo_consulta": "Rotina",
     "diagnostico": "Hipertensão arterial estágio 1",
@@ -30,7 +32,9 @@
     "id_consulta": "CONS002",
     "paciente_id": "P02",
     "medico_id": "RJ654321",
-    "data_consulta": "2015-06-22T14:00:00Z",
+    "data_consulta": {
+      "$date": "2015-06-22T14:00:00+00:00"
+    },
     "duracao_minutos": 45,
     "tipo_consulta": "Especializada",
     "diagnostico": "Gastrite erosiva",
@@ -57,7 +61,9 @@
     "id_consulta": "CONS003",
     "paciente_id": "P03",
     "medico_id": "MG789012",
-    "data_consulta": "2016-01-10T10:15:00Z",
+    "data_consulta": {
+      "$date": "2016-01-10T10:15:00+00:00"
+    },
     "duracao_minutos": 20,
     "tipo_consulta": "Dermatológica",
     "diagnostico": "Dermatite atópica",
@@ -79,7 +85,9 @@
     "id_consulta": "CONS004",
     "paciente_id": "P04",
     "medico_id": "RS456123",
-    "data_consulta": "2016-05-05T08:30:00Z",
+    "data_consulta": {
+      "$date": "2016-05-05T08:30:00+00:00"
+    },
     "duracao_minutos": 40,
     "tipo_consulta": "Cardiológica",
     "diagnostico": "Arritmia cardíaca",
@@ -106,7 +114,9 @@
     "id_consulta": "CONS005",
     "paciente_id": "P05",
     "medico_id": "PR987321",
-    "data_consulta": "2016-08-18T11:00:00Z",
+    "data_consulta": {
+      "$date": "2016-08-18T11:00:00+00:00"
+    },
     "duracao_minutos": 25,
     "tipo_consulta": "Pediatria",
     "diagnostico": "Otite média aguda",
@@ -133,7 +143,9 @@
     "id_consulta": "CONS006",
     "paciente_id": "P06",
     "medico_id": "BA654987",
-    "data_consulta": "2017-02-14T16:45:00Z",
+    "data_consulta": {
+      "$date": "2017-02-14T16:45:00+00:00"
+    },
     "duracao_minutos": 50,
     "tipo_consulta": "Ginecológica",
     "diagnostico": "Cisto de ovário funcional",
@@ -160,7 +172,9 @@
     "id_consulta": "CONS007",
     "paciente_id": "P07",
     "medico_id": "PE321654",
-    "data_consulta": "2017-07-30T13:20:00Z",
+    "data_consulta": {
+      "$date": "2017-07-30T13:20:00+00:00"
+    },
     "duracao_minutos": 30,
     "tipo_consulta": "Urológica",
     "diagnostico": "Infecção urinária",
@@ -182,7 +196,9 @@
     "id_consulta": "CONS008",
     "paciente_id": "P08",
     "medico_id": "GO123789",
-    "data_consulta": "2017-11-05T09:00:00Z",
+    "data_consulta": {
+      "$date": "2017-11-05T09:00:00+00:00"
+    },
     "duracao_minutos": 60,
     "tipo_consulta": "Cardiológica",
     "diagnostico": "Hipertensão arterial",
@@ -209,7 +225,9 @@
     "id_consulta": "CONS009",
     "paciente_id": "P09",
     "medico_id": "CE654789",
-    "data_consulta": "2018-04-12T15:30:00Z",
+    "data_consulta": {
+      "$date": "2018-04-12T15:30:00+00:00"
+    },
     "duracao_minutos": 20,
     "tipo_consulta": "Pediatria",
     "diagnostico": "Amigdalite bacteriana",
@@ -236,7 +254,9 @@
     "id_consulta": "CONS010",
     "paciente_id": "P10",
     "medico_id": "SC987654",
-    "data_consulta": "2018-09-20T10:45:00Z",
+    "data_consulta": {
+      "$date": "2018-09-20T10:45:00+00:00"
+    },
     "duracao_minutos": 40,
     "tipo_consulta": "Otorrinolaringológica",
     "diagnostico": "Rinite alérgica",
@@ -263,7 +283,9 @@
     "id_consulta": "CONS011",
     "paciente_id": "P11",
     "medico_id": "DF456852",
-    "data_consulta": "2019-01-25T08:15:00Z",
+    "data_consulta": {
+      "$date": "2019-01-25T08:15:00+00:00"
+    },
     "duracao_minutos": 30,
     "tipo_consulta": "Ortopédica",
     "diagnostico": "Tendinite patelar",
@@ -290,7 +312,9 @@
     "id_consulta": "CONS012",
     "paciente_id": "P12",
     "medico_id": "ES741258",
-    "data_consulta": "2019-06-03T14:20:00Z",
+    "data_consulta": {
+      "$date": "2019-06-03T14:20:00+00:00"
+    },
     "duracao_minutos": 50,
     "tipo_consulta": "Endocrinológica",
     "diagnostico": "Hipotireoidismo",
@@ -312,7 +336,9 @@
     "id_consulta": "CONS013",
     "paciente_id": "P13",
     "medico_id": "PA963852",
-    "data_consulta": "2019-10-15T11:10:00Z",
+    "data_consulta": {
+      "$date": "2019-10-15T11:10:00+00:00"
+    },
     "duracao_minutos": 25,
     "tipo_consulta": "Neurológica",
     "diagnostico": "Enxaqueca",
@@ -339,7 +365,9 @@
     "id_consulta": "CONS014",
     "paciente_id": "P14",
     "medico_id": "MS852741",
-    "data_consulta": "2020-02-28T09:45:00Z",
+    "data_consulta": {
+      "$date": "2020-02-28T09:45:00+00:00"
+    },
     "duracao_minutos": 35,
     "tipo_consulta": "Oftalmológica",
     "diagnostico": "Conjuntivite alérgica",
@@ -366,7 +394,9 @@
     "id_consulta": "CONS015",
     "paciente_id": "P15",
     "medico_id": "MT147963",
-    "data_consulta": "2020-07-17T16:30:00Z",
+    "data_consulta": {
+      "$date": "2020-07-17T16:30:00+00:00"
+    },
     "duracao_minutos": 60,
     "tipo_consulta": "Pneumológica",
     "diagnostico": "Asma brônquica",
@@ -393,7 +423,9 @@
     "id_consulta": "CONS016",
     "paciente_id": "P01",
     "medico_id": "SP123456",
-    "data_consulta": "2020-11-09T10:00:00Z",
+    "data_consulta": {
+      "$date": "2020-11-09T10:00:00+00:00"
+    },
     "duracao_minutos": 30,
     "tipo_consulta": "Retorno",
     "diagnostico": "Hipertensão controlada",
@@ -415,7 +447,9 @@
     "id_consulta": "CONS017",
     "paciente_id": "P03",
     "medico_id": "MG789012",
-    "data_consulta": "2021-03-22T14:15:00Z",
+    "data_consulta": {
+      "$date": "2021-03-22T14:15:00+00:00"
+    },
     "duracao_minutos": 40,
     "tipo_consulta": "Dermatológica",
     "diagnostico": "Dermatite seborreica",
@@ -442,7 +476,9 @@
     "id_consulta": "CONS018",
     "paciente_id": "P05",
     "medico_id": "PR987321",
-    "data_consulta": "2021-08-05T08:30:00Z",
+    "data_consulta": {
+      "$date": "2021-08-05T08:30:00+00:00"
+    },
     "duracao_minutos": 20,
     "tipo_consulta": "Pediatria",
     "diagnostico": "Resfriado comum",
@@ -464,7 +500,9 @@
     "id_consulta": "CONS019",
     "paciente_id": "P07",
     "medico_id": "PE321654",
-    "data_consulta": "2021-10-18T11:45:00Z",
+    "data_consulta": {
+      "$date": "2021-10-18T11:45:00+00:00"
+    },
     "duracao_minutos": 50,
     "tipo_consulta": "Urológica",
     "diagnostico": "Cálculo renal",
@@ -491,7 +529,9 @@
     "id_consulta": "CONS020",
     "paciente_id": "P10",
     "medico_id": "SC987654",
-    "data_consulta": "2021-12-07T15:00:00Z",
+    "data_consulta": {
+      "$date": "2021-12-07T15:00:00+00:00"
+    },
     "duracao_minutos": 30,
     "tipo_consulta": "Otorrinolaringológica",
     "diagnostico": "Sinusite aguda",
@@ -518,7 +558,9 @@
     "id_consulta": "CONS0021",
     "paciente_id": "P04",
     "medico_id": "PR987321",
-    "data_consulta": "2016-08-19T12:00:00Z",
+    "data_consulta": {
+      "$date": "2016-08-19T12:00:00+00:00"
+    },
     "duracao_minutos": 30,
     "tipo_consulta": "Clínica Geral",
     "diagnostico": "Otite média aguda",
@@ -545,7 +587,9 @@
     "id_consulta": "CONS0022",
     "paciente_id": "P04",
     "medico_id": "PR987321",
-    "data_consulta": "2016-08-33T12:00:00Z",
+   "data_consulta": { 
+    "$date": "2018-08-31T12:00:00+00:00" 
+    },
     "duracao_minutos": 30,
     "tipo_consulta": "Clínica Geral",
     "diagnostico": "Retorno",
