@@ -7,11 +7,11 @@ db.medicos.updateMany(
 
 // 1. Atualizar dois médicos como inativos (exemplo por CRM)
 db.medicos.updateOne(
-  { "documentos.crm": "SP123456" },
+  { "documentos.crm": "XE321569" },
   { $set: { em_atividade: false } }
 );
 db.medicos.updateOne(
-  { "documentos.crm": "RJ654321" },
+  { "documentos.crm": "PA963852" },
   { $set: { em_atividade: false } }
 );
 
@@ -38,10 +38,26 @@ db.consultas.aggregate([
   {
     $group: {
       _id: null,
-      media_valor: { $avg: "$valor_consulta" }
+      media_valor_bruto: { $avg: "$valor_consulta" }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      media_valor: {
+        $concat: [
+          "R$ ",
+          {
+            $toString: {
+              $round: ["$media_valor_bruto", 2]
+            }
+          }
+        ]
+      }
     }
   }
 ]);
+
 
 // 3. Internções que tiveram alta efetiva depois da data prevista.
 db.internacoes.find({
@@ -91,11 +107,36 @@ db.internacoes.aggregate([
   },
   { $unwind: "$paciente" },
 
-  // Projeção e cálculo
+  // Contando quantas vezes o paciente foi internado
+  {
+    $lookup: {
+      from: "internacoes",
+      let: { pid: "$paciente_id" },
+      pipeline: [
+        { $match: { $expr: { $eq: ["$paciente_id", "$$pid"] } } },
+        { $count: "total" }
+      ],
+      as: "internacoes_do_paciente"
+    }
+  },
+  {
+    $addFields: {
+      total_internacoes_paciente: {
+        $cond: {
+          if: { $gt: [{ $size: "$internacoes_do_paciente" }, 0] },
+          then: { $arrayElemAt: ["$internacoes_do_paciente.total", 0] },
+          else: 1
+        }
+      }
+    }
+  },
+
+  // Projeção final
   {
     $project: {
       _id: 0,
       nome_paciente: "$paciente.nome",
+      total_internacoes_paciente: 1,
       quarto_numero: "$quarto.numero",
       quarto_tipo: "$quarto.tipo",
       data_entrada: 1,
@@ -147,6 +188,7 @@ db.internacoes.aggregate([
     }
   }
 ]);
+
 
 // 6. Internações em quartos tipo “Apartamento” com procedimentos e nº do quarto
 db.internacoes.find(
