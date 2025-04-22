@@ -2,7 +2,9 @@
   {
     "id_paciente": "P01",
     "nome": "Alfred Júnior",
-    "data_nascimento": "1980-03-15",
+    "data_nascimento": {
+      "$date": "1980-03-15T00:00:00"
+    },
     "documentos": {
       "rg": "403764304",
       "digito": "8",
@@ -11,8 +13,12 @@
     },
     "genero": "Masculino",
     "status_paciente": "ativo",
-    "data_cadastro": "2010-01-01T00:00:00Z",
-    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "data_cadastro": {
+      "$date": "2010-01-01T00:00:00+00:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-07T09:00:00+00:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -102,7 +108,9 @@
   {
     "id_paciente": "P02",
     "nome": "Mariana Oliveira Costa",
-    "data_nascimento": "1992-07-22",
+    "data_nascimento": {
+      "$date": "1992-07-22T00:00:00"
+    },
     "documentos": {
       "rg": "289765432",
       "digito": "1",
@@ -111,8 +119,12 @@
     },
     "genero": "Feminino",
     "status_paciente": "ativo",
-    "data_cadastro": "2010-01-01T00:00:00Z",
-    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "data_cadastro": {
+      "$date": "2010-01-01T00:00:00+00:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-07T09:00:00+00:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -197,7 +209,9 @@
   {
     "id_paciente": "P03",
     "nome": "Carlos Eduardo Santos",
-    "data_nascimento": "1985-11-30",
+    "data_nascimento": {
+      "$date": "1985-11-30T00:00:00"
+    },
     "documentos": {
       "rg": "156789234",
       "digito": "5",
@@ -206,8 +220,12 @@
     },
     "genero": "Masculino",
     "status_paciente": "ativo",
-    "data_cadastro": "2010-01-01T00:00:00Z",
-    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "data_cadastro": {
+      "$date": "2010-01-01T00:00:00+00:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-07T09:00:00+00:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -273,7 +291,9 @@
   {
     "id_paciente": "P04",
     "nome": "Ana Beatriz Silva",
-    "data_nascimento": "1998-04-12",
+    "data_nascimento": {
+      "$date": "2000-09-12T00:00:00"
+    },
     "documentos": {
       "rg": "987654321",
       "digito": "0",
@@ -282,8 +302,12 @@
     },
     "genero": "Feminino",
     "status_paciente": "ativo",
-    "data_cadastro": "2010-01-01T00:00:00Z",
-    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "data_cadastro": {
+      "$date": "2010-01-01T00:00:00+00:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-07T09:00:00+00:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -316,6 +340,9 @@
         "numero_carteira": "567890123",
         "principal": true
       }
+    ],
+    "forma_pagamento": [
+      "pix","boleto"
     ],
     "alergias": [
       {
@@ -371,13 +398,21 @@
         "data_consulta": "2016-08-19T12:00:00Z",
         "especialidade": "Clínica Geral",
         "status": "realizada"
+      },
+      {
+        "id_consulta": "CONS0022",
+        "data_consulta": "2018-08-31T12:00:00Z",
+        "especialidade": "Clínica Geral",
+        "status": "realizada"
       }
     ]
   },
   {
     "id_paciente": "P05",
     "nome": "Ricardo Almeida",
-    "data_nascimento": "1977-09-05",
+    "data_nascimento": {
+      "$date": "1977-09-05T00:00:00"
+    },
     "documentos": {
       "rg": "345678901",
       "digito": "2",
@@ -386,8 +421,12 @@
     },
     "genero": "Masculino",
     "status_paciente": "inativo",
-    "data_cadastro": "2010-01-01T00:00:00Z",
-    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "data_cadastro": {
+      "$date": "2010-01-01T00:00:00+00:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-07T09:00:00+00:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -502,7 +541,9 @@
   {
     "id_paciente": "P06",
     "nome": "Fernanda Pereira",
-    "data_nascimento": "1990-12-18",
+    "data_nascimento": {
+      "$date": "1990-12-18T00:00:00"
+    },
     "documentos": {
       "rg": "456789012",
       "digito": "3",
@@ -511,8 +552,12 @@
     },
     "genero": "Feminino",
     "status_paciente": "ativo",
-    "data_cadastro": "2010-01-01T00:00:00Z",
-    "data_ultima_alteracao": "2024-04-07T09:00:00Z",
+    "data_cadastro": {
+      "$date": "2010-01-01T00:00:00+00:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-07T09:00:00+00:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -572,7 +617,9 @@
   {
     "id_paciente": "P07",
     "nome": "Lucas Mendes",
-    "data_nascimento": "1988-06-25",
+    "data_nascimento": {
+      "$date": "1988-06-25T00:00:00"
+    },
     "documentos": {
       "rg": "567890123",
       "digito": "4",
@@ -581,8 +628,12 @@
     },
     "genero": "Masculino",
     "status_paciente": "ativo",
-    "data_cadastro": "2023-12-05T09:30:00",
-    "data_ultima_alteracao": "2024-03-15T15:10:00",
+    "data_cadastro": {
+      "$date": "2023-12-05T09:30:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-03-15T15:10:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -673,7 +724,9 @@
   {
     "id_paciente": "P08",
     "nome": "Patrícia Lima",
-    "data_nascimento": "1983-02-14",
+    "data_nascimento": {
+      "$date": "1983-02-14T00:00:00"
+    },
     "documentos": {
       "rg": "678901234",
       "digito": "5",
@@ -682,8 +735,12 @@
     },
     "genero": "Feminino",
     "status_paciente": "inativo",
-    "data_cadastro": "2023-10-20T13:15:00",
-    "data_ultima_alteracao": "2024-01-10T10:45:00",
+    "data_cadastro": {
+      "$date": "2023-10-20T13:15:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-01-10T10:45:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -743,7 +800,9 @@
   {
     "id_paciente": "P09",
     "nome": "Amanda Freitas",
-    "data_nascimento": "1995-08-08",
+    "data_nascimento": {
+      "$date": "1995-08-08T00:00:00"
+    },
     "documentos": {
       "rg": "789012345",
       "digito": "6",
@@ -752,8 +811,12 @@
     },
     "genero": "Feminino",
     "status_paciente": "ativo",
-    "data_cadastro": "2024-01-05T08:00:00",
-    "data_ultima_alteracao": "2024-04-02T14:20:00",
+    "data_cadastro": {
+      "$date": "2024-01-05T08:00:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-02T14:20:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -838,7 +901,9 @@
   {
     "id_paciente": "P10",
     "nome": "Juliana Dias",
-    "data_nascimento": "1987-03-28",
+    "data_nascimento": {
+      "$date": "1987-03-28T00:00:00"
+    },
     "documentos": {
       "rg": "890123456",
       "digito": "7",
@@ -847,8 +912,12 @@
     },
     "genero": "Feminino",
     "status_paciente": "ativo",
-    "data_cadastro": "2023-09-10T11:45:00",
-    "data_ultima_alteracao": "2024-03-20T09:30:00",
+    "data_cadastro": {
+      "$date": "2023-09-10T11:45:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-03-20T09:30:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -882,6 +951,7 @@
         "principal": true
       }
     ],
+    "forma_pagamento": "dinheiro",
     "alergias": [
       {
         "tipo": "Picada de abelha",
@@ -939,7 +1009,9 @@
   {
     "id_paciente": "P11",
     "nome": "Gustavo Barbosa",
-    "data_nascimento": "1982-10-14",
+    "data_nascimento": {
+      "$date": "1982-10-14T00:00:00"
+    },
     "documentos": {
       "rg": "901234567",
       "digito": "8",
@@ -948,8 +1020,12 @@
     },
     "genero": "Masculino",
     "status_paciente": "inativo",
-    "data_cadastro": "2023-08-15T10:30:00",
-    "data_ultima_alteracao": "2023-12-10T16:45:00",
+    "data_cadastro": {
+      "$date": "2023-08-15T10:30:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2023-12-10T16:45:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1003,7 +1079,9 @@
   {
     "id_paciente": "P12",
     "nome": "Rafael Monteiro",
-    "data_nascimento": "1986-01-17",
+    "data_nascimento": {
+      "$date": "1986-01-17T00:00:00"
+    },
     "documentos": {
       "rg": "012345678",
       "digito": "9",
@@ -1012,8 +1090,12 @@
     },
     "genero": "Masculino",
     "status_paciente": "ativo",
-    "data_cadastro": "2024-03-01T14:00:00",
-    "data_ultima_alteracao": "2024-04-09T11:15:00",
+    "data_cadastro": {
+      "$date": "2024-03-01T14:00:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-09T11:15:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1104,7 +1186,9 @@
   {
     "id_paciente": "P13",
     "nome": "Camila Andrade",
-    "data_nascimento": "1989-05-23",
+    "data_nascimento": {
+      "$date": "1989-05-23T00:00:00"
+    },
     "documentos": {
       "rg": "123456780",
       "digito": "0",
@@ -1113,8 +1197,12 @@
     },
     "genero": "Feminino",
     "status_paciente": "ativo",
-    "data_cadastro": "2024-02-10T09:45:00",
-    "data_ultima_alteracao": "2024-04-05T10:30:00",
+    "data_cadastro": {
+      "$date": "2024-02-10T09:45:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-05T10:30:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1168,7 +1256,9 @@
   {
     "id_paciente": "P14",
     "nome": "Bruno Martins",
-    "data_nascimento": "1984-07-30",
+    "data_nascimento": {
+      "$date": "1984-07-30T00:00:00"
+    },
     "documentos": {
       "rg": "234567891",
       "digito": "1",
@@ -1177,8 +1267,12 @@
     },
     "genero": "Masculino",
     "status_paciente": "inativo",
-    "data_cadastro": "2023-07-20T15:30:00",
-    "data_ultima_alteracao": "2023-11-15T14:00:00",
+    "data_cadastro": {
+      "$date": "2023-07-20T15:30:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2023-11-15T14:00:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1241,7 +1335,9 @@
   {
     "id_paciente": "P15",
     "nome": "Isabela Oliveira",
-    "data_nascimento": "1993-12-12",
+    "data_nascimento": {
+      "$date": "1993-12-12T00:00:00"
+    },
     "documentos": {
       "rg": "345678912",
       "digito": "2",
@@ -1250,8 +1346,12 @@
     },
     "genero": "Feminino",
     "status_paciente": "ativo",
-    "data_cadastro": "2024-01-25T11:00:00",
-    "data_ultima_alteracao": "2024-04-03T09:45:00",
+    "data_cadastro": {
+      "$date": "2024-01-25T11:00:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-03T09:45:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1336,7 +1436,9 @@
   {
     "id_paciente": "P16",
     "nome": "Thiago Ramos",
-    "data_nascimento": "1978-04-07",
+    "data_nascimento": {
+      "$date": "1978-04-07T00:00:00"
+    },
     "documentos": {
       "rg": "456789123",
       "digito": "3",
@@ -1345,8 +1447,12 @@
     },
     "genero": "Masculino",
     "status_paciente": "ativo",
-    "data_cadastro": "2023-06-10T08:15:00",
-    "data_ultima_alteracao": "2024-02-28T14:30:00",
+    "data_cadastro": {
+      "$date": "2023-06-10T08:15:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-02-28T14:30:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1403,7 +1509,9 @@
   {
     "id_paciente": "P17",
     "nome": "Luana Ferreira",
-    "data_nascimento": "1996-09-19",
+    "data_nascimento": {
+      "$date": "1996-09-19T00:00:00"
+    },
     "documentos": {
       "rg": "567891234",
       "digito": "4",
@@ -1412,8 +1520,12 @@
     },
     "genero": "Feminino",
     "status_paciente": "ativo",
-    "data_cadastro": "2024-03-05T10:45:00",
-    "data_ultima_alteracao": "2024-04-10T08:30:00",
+    "data_cadastro": {
+      "$date": "2024-03-05T10:45:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-10T08:30:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1482,7 +1594,9 @@
   {
     "id_paciente": "P18",
     "nome": "Diego Souza",
-    "data_nascimento": "1981-11-22",
+    "data_nascimento": {
+      "$date": "1981-11-22T00:00:00"
+    },
     "documentos": {
       "rg": "678912345",
       "digito": "5",
@@ -1491,8 +1605,12 @@
     },
     "genero": "Masculino",
     "status_paciente": "inativo",
-    "data_cadastro": "2023-05-15T13:30:00",
-    "data_ultima_alteracao": "2023-10-10T11:45:00",
+    "data_cadastro": {
+      "$date": "2023-05-15T13:30:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2023-10-10T11:45:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1548,7 +1666,9 @@
   {
     "id_paciente": "P19",
     "nome": "Carolina Mendonça Rocha",
-    "data_nascimento": "1994-05-17",
+    "data_nascimento": {
+      "$date": "1994-05-17T00:00:00"
+    },
     "documentos": {
       "rg": "789123456",
       "digito": "6",
@@ -1557,8 +1677,12 @@
     },
     "genero": "Feminino",
     "status_paciente": "ativo",
-    "data_cadastro": "2024-04-15T08:20:00",
-    "data_ultima_alteracao": "2024-04-15T08:20:00",
+    "data_cadastro": {
+      "$date": "2024-04-15T08:20:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-15T08:20:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1637,7 +1761,9 @@
   {
     "id_paciente": "P20",
     "nome": "Eduardo Nascimento Lima",
-    "data_nascimento": "1980-12-03",
+    "data_nascimento": {
+      "$date": "1980-12-03T00:00:00"
+    },
     "documentos": {
       "rg": "890234567",
       "digito": "7",
@@ -1646,8 +1772,12 @@
     },
     "genero": "Masculino",
     "status_paciente": "ativo",
-    "data_cadastro": "2024-03-22T14:10:00",
-    "data_ultima_alteracao": "2024-04-10T09:15:00",
+    "data_cadastro": {
+      "$date": "2024-03-22T14:10:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-04-10T09:15:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1672,21 +1802,8 @@
       "cep": "22640002"
     },
     "tipo_sanguineo": "B-",
-    "convenios": [
-      {
-        "nome": "Unimed",
-        "cnpj": "12345678000199",
-        "tempo_carencia_dias": 180,
-        "numero_carteira": "987654321",
-        "principal": true
-      },
-      {
-        "nome": "Particular",
-        "cnpj": null,
-        "tempo_carencia_dias": null,
-        "numero_carteira": null
-      }
-    ],
+    "convenios": [],
+    "forma_pagamento": "dinheiro",
     "alergias": [],
     "contato_emergencia": {
       "nome": "Patrícia Lima",
@@ -1722,7 +1839,9 @@
   {
     "id_paciente": "P21",
     "nome": "Marielle Damaceno",
-    "data_nascimento": "1985-11-09",
+    "data_nascimento": {
+      "$date": "1985-11-09T00:00:00"
+    },
     "documentos": {
       "rg": "853694567",
       "digito": "9",
@@ -1731,8 +1850,12 @@
     },
     "genero": "Feminino",
     "status_paciente": "ativo",
-    "data_cadastro": "2024-03-22T14:15:00",
-    "data_ultima_alteracao": "2024-05-10T09:30:00",
+    "data_cadastro": {
+      "$date": "2024-03-22T14:15:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2024-05-10T09:30:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1752,7 +1875,7 @@
     },
     "tipo_sanguineo": "A-",
     "convenios": null,
-    "forma_pagamento_preferida": "dinheiro",
+    "forma_pagamento": "dinheiro",
     "alergias": [],
     "contato_emergencia": {
       "nome": "Robert Jailson",
@@ -1766,7 +1889,9 @@
   {
     "id_paciente": "P22",
     "nome": "João Gomes",
-    "data_nascimento": "1972-10-09",
+    "data_nascimento": {
+      "$date": "1972-10-09T00:00:00"
+    },
     "documentos": {
       "rg": "853695489",
       "digito": "8",
@@ -1775,8 +1900,12 @@
     },
     "genero": "Masculino",
     "status_paciente": "ativo",
-    "data_cadastro": "2024-02-15T14:15:00",
-    "data_ultima_alteracao": "2023-05-10T09:30:00",
+    "data_cadastro": {
+      "$date": "2024-02-15T14:15:00"
+    },
+    "data_ultima_alteracao": {
+      "$date": "2023-05-10T09:30:00"
+    },
     "contatos": [
       {
         "tipo": "celular",
@@ -1796,7 +1925,7 @@
     },
     "tipo_sanguineo": "O",
     "convenios": null,
-    "forma_pagamento_preferida": "pix",
+    "forma_pagamento": "pix",
     "alergias": [],
     "contato_emergencia": {
       "nome": "Lais Gomes",
@@ -1807,5 +1936,4 @@
     "uso_medicamento": [],
     "historico_consultas": []
   }
-  
 ]
