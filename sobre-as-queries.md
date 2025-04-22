@@ -1,5 +1,7 @@
 # MongoDB Queries - Projeto Hospital Vivare
+
 ## ✅ 0. Marcar todos os médicos como ativos
+
 ```js
 db.medicos.updateMany({}, { $set: { em_atividade: true } });
 ```
