@@ -1,10 +1,5 @@
 # MongoDB Queries - Projeto Hospital Vivare
 
-
-# 🏥 hospital_queries.js — README Detalhado
-
-Este documento explica **linha por linha** o que cada comando do script `hospital_queries.js` faz, com o código completo incluso.
-
 ---
 
 ## ✅ 0. Marcar todos os médicos como ativos
