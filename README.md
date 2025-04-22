@@ -86,5 +86,18 @@ O script principal (em MongoDB Shell) está dividido em blocos que:
   * ✅ Inclui dados de 10 profissionais de enfermagem.
   * ✅ Associar cada internação a pelo menos 2 enfermeiros.
   * ✅ Os dados de tipo de quarto, convênio e especialidade devem ser povoados no início do sistema.
+ 
+## Consultas do Sitema
+* ✅ Todos os dados e o valor médio das consultas do ano de 2020 e das que foram feitas sob convênio.
+* ✅ Todos os dados das internações que tiveram dados de alta maior que os dados previstos para a alta.
+* ✅ Receituário completo da primeira consulta registrada com receituário adicional.
+* ✅ Todos os dados da consulta de maior valor e também de menor valor (ambas as consultas não foram realizadas sob convênio).
+* ✅ Todos os dados das internações em seus respectivos quartos, calculando o total da internação a partir do valor de diários do quarto e o número de dias entre a entrada e a alta.
+* ✅ Dados, procedimento e número de quarto de internações em quartos do tipo “apartamento”.
+Nome do paciente, dados da consulta e especialidade de todas as consultas em que os pacientes eram menores de 18 anos na data da consulta e cuja especialidade não seja “pediatria”, ordenando por dados de realização da consulta.
+* ✅ Nome do paciente, nome do médico, dados de internação e procedimentos de internações realizadas por médicos da especialidade “gastroenterologia”, que ocorreram em “enfermaria”.
+* ✅ Os nomes dos médicos, seus CRMs e a quantidade de consultas que cada um fez.
+Todos os médicos que têm "Gabriel" sem nome. 
+* ✅ Os nomes, CORENs e número de internações de enfermeiros que participaram de mais de uma internação.
 --- 
 **Banco de dados NoSQL otimizado para ambientes hospitalares.**
