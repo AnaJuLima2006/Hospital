@@ -1,7 +1,9 @@
 [
   {
     "nome": "Ana Julia Lima dos Santos",
-    "data_nascimento": "1990-01-01",
+    "data_nascimento": {
+      "$date": "1990-01-01T00:00:00"
+    },
     "tipo_medico": "Especialista",
     "genero": "Feminino",
     "especialidade": [
@@ -68,11 +70,15 @@
         "observação": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Carlos Eduardo Silva",
-    "data_nascimento": "1985-05-15",
+    "data_nascimento": {
+      "$date": "1985-05-15T00:00:00"
+    },
     "tipo_medico": "Especialista",
     "genero": "Masculino",
     "especialidade": [
@@ -123,11 +129,15 @@
         "observação": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Mariana Oliveira Costa",
-    "data_nascimento": "1988-07-22",
+    "data_nascimento": {
+      "$date": "1988-07-22T00:00:00"
+    },
     "tipo_medico": "Especialista",
     "genero": "Feminino",
     "especialidade": [
@@ -183,11 +193,15 @@
         "observação": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Ricardo Almeida Santos",
-    "data_nascimento": "1979-11-30",
+    "data_nascimento": {
+      "$date": "1979-11-30T00:00:00"
+    },
     "tipo_medico": "Generalista",
     "genero": "Masculino",
     "especialidade": [
@@ -239,11 +253,15 @@
         "observação": "E-mail institucional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Fernanda Pereira Rocha",
-    "data_nascimento": "1992-03-18",
+    "data_nascimento": {
+      "$date": "1992-03-18T00:00:00"
+    },
     "tipo_medico": "Residencia",
     "genero": "Feminino",
     "especialidade": [
@@ -302,11 +320,15 @@
         "observação": "E-mail hospitalar"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Lucas Mendes Gonçalves",
-    "data_nascimento": "1983-09-25",
+    "data_nascimento": {
+      "$date": "1983-09-25T00:00:00"
+    },
     "tipo_medico": "Especialista",
     "genero": "Masculino",
     "especialidade": [
@@ -356,11 +378,15 @@
         "observação": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Patrícia Albuquerque Lima",
-    "data_nascimento": "1980-12-05",
+    "data_nascimento": {
+      "$date": "1980-12-05T00:00:00"
+    },
     "tipo_medico": "Residencia",
     "genero": "Feminino",
     "especialidade": [
@@ -417,11 +443,15 @@
         "observação": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Amanda Cristina Freitas",
-    "data_nascimento": "1991-10-08",
+    "data_nascimento": {
+      "$date": "1991-10-08T00:00:00"
+    },
     "tipo_medico": "Generalista",
     "genero": "Feminino",
     "especialidade": [
@@ -478,11 +508,15 @@
         "observação": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Juliana Vasconcelos Dias",
-    "data_nascimento": "1987-04-28",
+    "data_nascimento": {
+      "$date": "1987-04-28T00:00:00"
+    },
     "tipo_medico": "Residencia",
     "genero": "Feminino",
     "especialidade": [
@@ -543,11 +577,15 @@
         "observação": "E-mail pessoal"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Gustavo Henrique Barbosa",
-    "data_nascimento": "1982-06-14",
+    "data_nascimento": {
+      "$date": "1982-06-14T00:00:00"
+    },
     "tipo_medico": "Especialista",
     "genero": "Masculino",
     "especialidade": [
@@ -599,11 +637,15 @@
         "observação": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Rafael Augusto Monteiro",
-    "data_nascimento": "1986-02-17",
+    "data_nascimento": {
+      "$date": "1986-02-17T00:00:00"
+    },
     "tipo_medico": "Especialista",
     "genero": "Masculino",
     "especialidade": [
@@ -658,11 +700,15 @@
         "observação": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Camila Andrade Souza",
-    "data_nascimento": "1989-08-23",
+    "data_nascimento": {
+      "$date": "1989-08-23T00:00:00"
+    },
     "tipo_medico": "Generalista",
     "genero": "Feminino",
     "especialidade": [
@@ -713,11 +759,15 @@
         "observação": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Bruno Carvalho Martins",
-    "data_nascimento": "1984-05-30",
+    "data_nascimento": {
+      "$date": "1984-05-30T00:00:00"
+    },
     "tipo_medico": "Residencia",
     "genero": "Masculino",
     "especialidade": [
@@ -773,11 +823,15 @@
         "observação": "E-mail institucional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Isabela Santos Oliveira",
-    "data_nascimento": "1993-12-12",
+    "data_nascimento": {
+      "$date": "1993-12-12T00:00:00"
+    },
     "tipo_medico": "Especialista",
     "genero": "Feminino",
     "especialidade": [
@@ -833,11 +887,15 @@
         "observação": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Thiago Nogueira Ramos",
-    "data_nascimento": "1978-07-04",
+    "data_nascimento": {
+      "$date": "1978-07-04T00:00:00"
+    },
     "tipo_medico": "Generalista",
     "genero": "Masculino",
     "especialidade": [
@@ -888,11 +946,15 @@
         "observação": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Luiz Felipe Torres",
-    "data_nascimento": "1981-09-14",
+    "data_nascimento": {
+      "$date": "1981-09-14T00:00:00"
+    },
     "tipo_medico": "Especialista",
     "genero": "Masculino",
     "especialidade": [
@@ -938,11 +1000,15 @@
         "observacao": "E-mail profissional"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Beatriz Campos Almeida",
-    "data_nascimento": "1989-04-25",
+    "data_nascimento": {
+      "$date": "1989-04-25T00:00:00"
+    },
     "tipo_medico": "Especialista",
     "genero": "Feminino",
     "especialidade": [
@@ -988,11 +1054,15 @@
         "observacao": "Clínica"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Marcos Vinicius Oliveira",
-    "data_nascimento": "1983-11-30",
+    "data_nascimento": {
+      "$date": "1983-11-30T00:00:00"
+    },
     "tipo_medico": "Generalista",
     "genero": "Masculino",
     "especialidade": [
@@ -1031,11 +1101,15 @@
         "observacao": "Plantão 24h"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Carolina Duarte Santos",
-    "data_nascimento": "1987-07-18",
+    "data_nascimento": {
+      "$date": "1987-07-18T00:00:00"
+    },
     "tipo_medico": "Residencia",
     "genero": "Feminino",
     "especialidade": [
@@ -1078,11 +1152,15 @@
         "observacao": "E-mail para agendamento"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
   },
   {
     "nome": "Ricardo Augusto Ferreira",
-    "data_nascimento": "1979-02-22",
+    "data_nascimento": {
+      "$date": "1979-02-22T00:00:00"
+    },
     "tipo_medico": "Especialista",
     "genero": "Masculino",
     "especialidade": [
@@ -1130,6 +1208,65 @@
         "observacao": "Emergências"
       }
     ],
-    "data_cadastro": "2024-04-15T08:00:00Z"
+    "data_cadastro": {
+      "$date": "2024-04-15T08:00:00+00:00"
+    }
+  },
+  {
+    "nome": "Gabriel de Lima Bastos",
+    "data_nascimento": {
+      "$date": "1985-04-12T00:00:00"
+    },
+    "tipo_medico": "Especialista",
+    "genero": "Masculino",
+    "especialidade": [
+      "Ofitalmologia",
+      "Cirurgia de Cornea"
+    ],
+    "agenda_disponibilidade": {
+      "segunda": [
+        "14:00-18:00"
+      ],
+      "terca": [
+        "08:00-12:00"
+      ],
+      "quinta": [
+        "14:00-18:00"
+      ],
+      "sexta": [
+        "08:00-12:00"
+      ]
+    },
+    "documentos": {
+      "crm": "XE321569",
+      "rg": "852985896",
+      "digito": "1",
+      "cpf": "89641232156"
+    },
+    "endereco": {
+      "logradouro": "Av. Vilarejo da Pescaria",
+      "numero": "2580",
+      "complemento": "Ed. Medical Center, Sala 1204",
+      "bairro": "Caminho das Árvores",
+      "cidade": "Salvador",
+      "estado": "BA",
+      "cep": "41820785"
+    },
+    "contatos": [
+      {
+        "telefone": "71987654587",
+        "whatsapp": false,
+        "observacao": "Secretária"
+      },
+      {
+        "telefone": "7133336310",
+        "whatsapp": true,
+        "observacao": "Emergências"
+      }
+    ],
+    "data_cadastro": {
+      "$date": "2024-05-14T07:00:00+00:00"
+    }
   }
+
 ]
