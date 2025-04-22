@@ -182,18 +182,48 @@ db.consultas.aggregate([
 
 // 8. Internações feitas por médicos gastroenterologistas em enfermaria
 db.internacoes.aggregate([
-  { $lookup: { from: "medicos", localField: "medico_responsavel_id", foreignField: "documentos.crm", as: "medico" }},
+  // Traz dados do médico
+  {
+    $lookup: {
+      from: "medicos",
+      localField: "medico_responsavel_id",
+      foreignField: "documentos.crm",
+      as: "medico"
+    }
+  },
   { $unwind: "$medico" },
-  { $match: {
-    "medico.especialidade": "Gastroenterologia",
-    "quarto.tipo": "Enfermaria"
-  }},
-  { $project: {
-    nome_paciente: 1,
-    nome_medico: "$medico.nome",
-    procedimentos: 1,
-    quarto: 1
-  }}
+
+  // Traz dados do paciente
+  {
+    $lookup: {
+      from: "pacientes",
+      localField: "paciente_id",
+      foreignField: "id_paciente",
+      as: "paciente"
+    }
+  },
+  { $unwind: "$paciente" },
+
+  // Filtro: gastro + enfermaria
+  {
+    $match: {
+      "medico.especialidade": "Gastroenterologia",
+      "quarto.tipo": "Enfermaria"
+    }
+  },
+
+  // Projeção final
+  {
+    $project: {
+      nome_paciente: "$paciente.nome",
+      nome_medico: "$medico.nome",
+      procedimentos: 1,
+      quarto: 1,
+      data_entrada: 1,
+      data_prevista_alta: 1,
+      data_efetiva_alta: 1
+    }
+  }
 ]);
 
 // 9. Total de consultas feitas por médico (com nome e CRM)
