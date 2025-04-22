@@ -3,9 +3,13 @@
     "_id": "5f1d1d1db0b1e6b1f1c1f1c1f",
     "paciente_id": "P01",
     "medico_responsavel_id": "SP123456",
-    "data_entrada": "2021-04-10T08:00:00Z",
+    "data_entrada": {
+      "$date": "2021-04-10T08:00:00+00:00"
+    },
     "data_prevista_alta": "2021-04-15T10:00:00Z",
-    "data_efetiva_alta": "2021-04-14T12:00:00Z",
+    "data_efetiva_alta": {
+      "$date": "2021-04-14T12:00:00+00:00"
+    },
     "diagnostico_principal": "Apendicite aguda",
     "procedimentos": [
       "Cirurgia de apendicite",
@@ -61,9 +65,13 @@
     "_id": "5f2e2e2eb0b1e6b1f1c1f1c1f",
     "paciente_id": "P03",
     "medico_responsavel_id": "MG789012",
-    "data_entrada": "2020-08-05T14:30:00Z",
+    "data_entrada": {
+      "$date": "2020-08-05T14:30:00+00:00"
+    },
     "data_prevista_alta": "2020-08-10T10:00:00Z",
-    "data_efetiva_alta": "2020-08-12T09:15:00Z",
+    "data_efetiva_alta": {
+      "$date": "2020-08-12T09:15:00+00:00"
+    },
     "diagnostico_principal": "Pneumonia bacteriana",
     "procedimentos": [
       "Tratamento de pneumonia",
@@ -124,9 +132,13 @@
     "_id": "5f3f3f3fb0b1e6b1f1c1f1c1f",
     "paciente_id": "P05",
     "medico_responsavel_id": "RS456123",
-    "data_entrada": "2019-11-15T10:00:00Z",
+    "data_entrada": {
+      "$date": "2019-11-15T10:00:00+00:00"
+    },
     "data_prevista_alta": "2019-11-20T10:00:00Z",
-    "data_efetiva_alta": "2019-11-18T14:30:00Z",
+    "data_efetiva_alta": {
+      "$date": "2019-11-18T14:30:00+00:00"
+    },
     "diagnostico_principal": "Hérnia inguinal estrangulada",
     "procedimentos": [
       "Cirurgia de hérnia inguinal",
@@ -182,9 +194,13 @@
     "_id": "5f4d4d4db0b1e6b1f1c1f1c1f",
     "paciente_id": "P02",
     "medico_responsavel_id": "RJ654321",
-    "data_entrada": "2018-03-22T09:15:00Z",
+    "data_entrada": {
+      "$date": "2018-03-22T09:15:00+00:00"
+    },
     "data_prevista_alta": "2018-03-25T10:00:00Z",
-    "data_efetiva_alta": "2018-03-24T16:45:00Z",
+    "data_efetiva_alta": {
+      "$date": "2018-03-24T16:45:00+00:00"
+    },
     "diagnostico_principal": "Trabalho de parto prolongado",
     "procedimentos": [
       "Parto cesárea",
@@ -245,9 +261,13 @@
     "_id": "5f5e5e5eb0b1e6b1f1c1f1c1f",
     "paciente_id": "P01",
     "medico_responsavel_id": "SP123456",
-    "data_entrada": "2017-07-30T11:20:00Z",
+    "data_entrada": {
+      "$date": "2017-07-30T11:20:00+00:00"
+    },
     "data_prevista_alta": "2017-08-05T10:00:00Z",
-    "data_efetiva_alta": "2017-08-03T09:00:00Z",
+    "data_efetiva_alta": {
+      "$date": "2017-08-03T09:00:00+00:00"
+    },
     "diagnostico_principal": "Fratura de fêmur direito",
     "procedimentos": [
       "Tratamento de fratura de fêmur",
@@ -303,9 +323,13 @@
     "_id": "5f6f6f6fb0b1e6b1f1c1f1c1f",
     "paciente_id": "P07",
     "medico_responsavel_id": "BA654987",
-    "data_entrada": "2016-05-12T16:45:00Z",
+    "data_entrada": {
+      "$date": "2016-05-12T16:45:00+00:00"
+    },
     "data_prevista_alta": "2016-05-18T10:00:00Z",
-    "data_efetiva_alta": "2016-05-17T11:30:00Z",
+    "data_efetiva_alta": {
+      "$date": "2016-05-17T11:30:00+00:00"
+    },
     "diagnostico_principal": "Dengue hemorrágica",
     "procedimentos": [
       "Tratamento de dengue hemorrágica",
@@ -366,9 +390,13 @@
     "_id": "5f7g7g7gb0b1e6b1f1c1f1c1f",
     "paciente_id": "P04",
     "medico_responsavel_id": "PR987321",
-    "data_entrada": "2015-09-08T08:30:00Z",
+    "data_entrada": {
+      "$date": "2015-09-08T08:30:00+00:00"
+    },
     "data_prevista_alta": "2015-09-12T10:00:00Z",
-    "data_efetiva_alta": "2015-09-11T14:15:00Z",
+    "data_efetiva_alta": {
+      "$date": "2015-09-11T14:15:00+00:00"
+    },
     "diagnostico_principal": "Colecistite aguda",
     "procedimentos": [
       "Cirurgia de vesícula",
@@ -424,9 +452,13 @@
     "_id": "5f8h8h8hb0b1e6b1f1c1f1c1f",
     "paciente_id": "P09",
     "medico_responsavel_id": "CE654789",
-    "data_entrada": "2022-01-15T09:00:00Z",
+    "data_entrada": {
+      "$date": "2022-01-15T09:00:00+00:00"
+    },
     "data_prevista_alta": "2022-01-20T10:00:00Z",
-    "data_efetiva_alta": "2022-01-18T11:20:00Z",
+    "data_efetiva_alta": {
+      "$date": "2022-01-18T11:20:00+00:00"
+    },
     "diagnostico_principal": "Reação alérgica grave a contraste iodado",
     "procedimentos": [
       "Desintoxicação",
@@ -487,9 +519,13 @@
     "_id": "5f9i9i9ib0b1e6b1f1c1f1c1f",
     "paciente_id": "P12",
     "medico_responsavel_id": "ES741258",
-    "data_entrada": "2022-03-08T14:00:00Z",
+    "data_entrada": {
+      "$date": "2022-03-08T14:00:00+00:00"
+    },
     "data_prevista_alta": "2022-03-12T10:00:00Z",
-    "data_efetiva_alta": "2022-03-10T16:30:00Z",
+    "data_efetiva_alta": {
+      "$date": "2022-03-10T16:30:00+00:00"
+    },
     "diagnostico_principal": "Crise de asma severa",
     "procedimentos": [
       "Nebulização",
@@ -550,9 +586,13 @@
     "_id": "5f0j0j0jb0b1e6b1f1c1f1c1f",
     "paciente_id": "P15",
     "medico_responsavel_id": "MT147963",
-    "data_entrada": "2022-05-22T08:45:00Z",
+    "data_entrada": {
+      "$date": "2022-05-22T08:45:00+00:00"
+    },
     "data_prevista_alta": "2022-05-27T10:00:00Z",
-    "data_efetiva_alta": "2022-05-25T09:15:00Z",
+    "data_efetiva_alta": {
+      "$date": "2022-05-25T09:15:00+00:00"
+    },
     "diagnostico_principal": "Intoxicação alimentar por mariscos",
     "procedimentos": [
       "Lavagem gástrica",
@@ -613,9 +653,13 @@
     "_id": "duplicada_0",
     "paciente_id": "P05",
     "medico_responsavel_id": "RS456123",
-    "data_entrada": "2018-06-15T10:00:00Z",
+    "data_entrada": {
+      "$date": "2018-06-15T10:00:00+00:00"
+    },
     "data_prevista_alta": "2018-06-20T10:00:00Z",
-    "data_efetiva_alta": "2018-06-19T14:00:00Z",
+    "data_efetiva_alta": {
+      "$date": "2018-06-19T14:00:00+00:00"
+    },
     "diagnostico_principal": "Reinternação para controle",
     "procedimentos": [
       "Cirurgia de hérnia inguinal",
@@ -671,9 +715,13 @@
     "_id": "duplicada_1",
     "paciente_id": "P02",
     "medico_responsavel_id": "RJ654321",
-    "data_entrada": "2018-06-15T10:00:00Z",
+    "data_entrada": {
+      "$date": "2018-06-15T10:00:00+00:00"
+    },
     "data_prevista_alta": "2018-06-20T10:00:00Z",
-    "data_efetiva_alta": "2018-06-19T14:00:00Z",
+    "data_efetiva_alta": {
+      "$date": "2018-06-19T14:00:00+00:00"
+    },
     "diagnostico_principal": "Reinternação para controle",
     "procedimentos": [
       "Parto cesárea",
