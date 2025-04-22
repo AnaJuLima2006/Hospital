@@ -6,7 +6,9 @@
     "data_entrada": {
       "$date": "2021-04-10T08:00:00+00:00"
     },
-    "data_prevista_alta": "2021-04-15T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2021-04-15T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2021-04-14T12:00:00+00:00"
     },
@@ -68,7 +70,9 @@
     "data_entrada": {
       "$date": "2020-08-05T14:30:00+00:00"
     },
-    "data_prevista_alta": "2020-08-10T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2020-08-10T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2020-08-12T09:15:00+00:00"
     },
@@ -135,7 +139,9 @@
     "data_entrada": {
       "$date": "2019-11-15T10:00:00+00:00"
     },
-    "data_prevista_alta": "2019-11-20T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2019-11-20T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2019-11-18T14:30:00+00:00"
     },
@@ -197,7 +203,9 @@
     "data_entrada": {
       "$date": "2018-03-22T09:15:00+00:00"
     },
-    "data_prevista_alta": "2018-03-25T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2018-03-25T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2018-03-24T16:45:00+00:00"
     },
@@ -264,7 +272,9 @@
     "data_entrada": {
       "$date": "2017-07-30T11:20:00+00:00"
     },
-    "data_prevista_alta": "2017-08-05T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2017-08-05T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2017-08-03T09:00:00+00:00"
     },
@@ -326,7 +336,9 @@
     "data_entrada": {
       "$date": "2016-05-12T16:45:00+00:00"
     },
-    "data_prevista_alta": "2016-05-18T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2016-05-18T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2016-05-17T11:30:00+00:00"
     },
@@ -393,7 +405,9 @@
     "data_entrada": {
       "$date": "2015-09-08T08:30:00+00:00"
     },
-    "data_prevista_alta": "2015-09-12T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2015-09-12T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2015-09-11T14:15:00+00:00"
     },
@@ -455,7 +469,9 @@
     "data_entrada": {
       "$date": "2022-01-15T09:00:00+00:00"
     },
-    "data_prevista_alta": "2022-01-20T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2022-01-20T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2022-01-18T11:20:00+00:00"
     },
@@ -522,7 +538,9 @@
     "data_entrada": {
       "$date": "2022-03-08T14:00:00+00:00"
     },
-    "data_prevista_alta": "2022-03-12T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2022-03-12T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2022-03-10T16:30:00+00:00"
     },
@@ -589,7 +607,9 @@
     "data_entrada": {
       "$date": "2022-05-22T08:45:00+00:00"
     },
-    "data_prevista_alta": "2022-05-27T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2022-05-27T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2022-05-25T09:15:00+00:00"
     },
@@ -656,7 +676,9 @@
     "data_entrada": {
       "$date": "2018-06-15T10:00:00+00:00"
     },
-    "data_prevista_alta": "2018-06-20T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2018-06-20T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2018-06-19T14:00:00+00:00"
     },
@@ -718,7 +740,9 @@
     "data_entrada": {
       "$date": "2018-06-15T10:00:00+00:00"
     },
-    "data_prevista_alta": "2018-06-20T10:00:00Z",
+    "data_prevista_alta": {
+      "$date": "2018-06-20T10:00:00+00:00"
+    },
     "data_efetiva_alta": {
       "$date": "2018-06-19T14:00:00+00:00"
     },
