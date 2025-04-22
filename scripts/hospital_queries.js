@@ -252,10 +252,24 @@ db.medicos.find({ nome: /Gabriel/i });
 // 11. Enfermeiros com mais de uma internação
 db.internacoes.aggregate([
   { $unwind: "$enfermeiros_responsaveis" },
-  { $group: {
-    _id: "$enfermeiros_responsaveis.coren",
-    nome: { $first: "$enfermeiros_responsaveis.nome" },
-    total_internacoes: { $sum: 1 }
-  }},
-  { $match: { total_internacoes: { $gt: 1 } }}
+  {
+    $group: {
+      _id: "$enfermeiros_responsaveis.coren",
+      nome: { $first: "$enfermeiros_responsaveis.nome" },
+      total_internacoes: { $sum: 1 },
+      internacoes: {
+        $push: {
+          id_internacao: "$id_internacao",
+          data_entrada: "$data_entrada",
+          data_efetiva_alta: "$data_efetiva_alta"
+        }
+      }
+    }
+  },
+  {
+    $match: {
+      total_internacoes: { $gt: 1 }
+    }
+  }
 ]);
+
